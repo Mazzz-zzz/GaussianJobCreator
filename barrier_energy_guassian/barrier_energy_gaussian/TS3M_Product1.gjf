@@ -1,0 +1,19 @@
+%mem=3GB
+%nprocshared=4
+# opt=(maxcyc=999,noeigen) freq m062x/def2tzvp geom=connectivity int=ultrafine scf=(tight,xqc)
+
+TS3M_Product1 optimization
+
+0 2
+O      -1.225862     -0.880888     -0.490424
+S      -0.546617      0.037158      0.492380
+O       1.037334     -0.404294      0.421412
+O      -0.538941      1.489989      0.093245
+H       1.274086     -0.241964     -0.516613
+
+1 2 1.0
+2 3 1.0 4 1.0
+3 5 1.0
+4
+5
+
