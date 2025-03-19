@@ -86,7 +86,7 @@ def create_admp_input(molecule_path, temp, output_dir,
     Note: Temperature control in ADMP is achieved through initial velocities,
     not through direct parameters to the ADMP keyword."""
     
-    molecule_name = os.path.basename(molecule_path).replace('.gjf', '').replace('.com', '')
+    molecule_name = os.path.basename(molecule_path).replace('.gjf', '')
     output_path = Path(output_dir) / f"{molecule_name}_ADMP_{temp}K.gjf"
     
     # Extract geometry, charge and multiplicity

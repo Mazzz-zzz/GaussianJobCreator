@@ -1,3 +1,4 @@
+%chk=CF2O_ADMP_800K.chk
 %mem=8GB
 %nprocshared=8
 # B3LYP/6-31G(d) ADMP int=ultrafine Temperature=800
