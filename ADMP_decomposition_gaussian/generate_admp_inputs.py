@@ -17,13 +17,14 @@ from pathlib import Path
 DEFAULT_CONFIG = {
     'input_dir': "../geom_optimise_guassian/gaussian_projects",
     'output_dir': "admp_jobs",
-    'temperatures': [600],  # in Kelvin
+    'temperatures': [800],  # in Kelvin
     'max_points': 2000,
     'delta_t': 0.5,  # femtoseconds
     'method': "B3LYP",
     'basis': "6-31G(d)",
     'mem': "8GB",
-    'nproc': 8
+    'nproc': 8,
+    'rstf': 10  # Save checkpoint every n steps (ADMP RSTF parameter)
 }
 
 def extract_geometry(file_path):
@@ -80,7 +81,7 @@ def extract_geometry(file_path):
 
 def create_admp_input(molecule_path, temp, output_dir, 
                      max_points=2000, delta_t=0.5, full_step=100,
-                     method='B3LYP', basis='6-31G(d)', mem='8GB', nproc=8):
+                     method='B3LYP', basis='6-31G(d)', mem='8GB', nproc=8, rstf=10):
     """Create Gaussian input file for ADMP calculation at specified temperature.
     Note: Temperature control in ADMP is achieved through initial velocities,
     not through direct parameters to the ADMP keyword."""
@@ -100,7 +101,8 @@ def create_admp_input(molecule_path, temp, output_dir,
         f.write(f"%mem={mem}\n")
         f.write(f"%nprocshared={nproc}\n")
         # Write route section with ADMP keyword - note that temperature is controlled via initial velocities
-        f.write(f"# {method}/{basis} ADMP int=ultrafine\n\n")
+        #f.write(f"# {method}/{basis} ADMP int=ultrafine\n\n")
+        f.write(f"# {method}/{basis} ADMP int=ultrafine Temperature={temp}\n\n")
         
         # Title
         f.write(f"{molecule_name} ADMP thermal decomposition simulation targeting {temp}K\n\n")
@@ -195,7 +197,8 @@ def main():
                 method=config['method'],
                 basis=config['basis'],
                 mem=config['mem'],
-                nproc=config['nproc']
+                nproc=config['nproc'],
+                rstf=config['rstf']
             )
             
     print(f"\nGenerated ADMP input files for {len(input_files)} molecules at {len(config['temperatures'])} temperatures.")

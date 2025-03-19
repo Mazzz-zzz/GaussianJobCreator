@@ -31,26 +31,6 @@ validate_input_file() {
         echo "Added %chk directive to input file."
     fi
     
-    # Check for syntax issues in ADMP parameters
-    if grep -q "'" "$input_file" || grep -q '"' "$input_file"; then
-        echo "WARNING: Found quote characters in input file, removing them..."
-        sed -i "s/'//g; s/\"//g" "$input_file"
-        echo "Cleaned input file."
-    fi
-    
-    # Check for incomplete ADMP parameters
-    if grep -q "Rtemp=\s*$" "$input_file"; then
-        echo "ERROR: Incomplete ADMP parameter (Rtemp=) detected."
-        local temp=$(echo "$input_file" | grep -o "[0-9]\+K" | grep -o "[0-9]\+")
-        if [ -n "$temp" ]; then
-            echo "Fixing Rtemp parameter with temperature $temp"
-            sed -i "s/Rtemp=\s*$/Rtemp=$temp/" "$input_file"
-            echo "Fixed Rtemp parameter."
-        else
-            echo "Could not determine temperature from filename, skipping this file."
-            return 1
-        fi
-    fi
     
     echo "Input file validation complete."
     return 0
@@ -68,8 +48,7 @@ find ./admp_jobs -name "*_ADMP_*.gjf" | sort | while read -r file; do
     temp=${temp%.gjf}
     
     results_dir="./admp_jobs/results/$molecule/$temp"
-    chk_dir="$results_dir/checkpoints"
-    mkdir -p "$results_dir" "$chk_dir"
+    mkdir -p "$results_dir"
     
     # Copy input file to results directory
     cp "$file" "$results_dir/"
@@ -90,42 +69,18 @@ find ./admp_jobs -name "*_ADMP_*.gjf" | sort | while read -r file; do
     if grep -q "Normal termination" "$(basename "${file%.gjf}.log")"; then
         echo "ADMP calculation for $molecule at $temp completed successfully."
         
-        # Process checkpoint files (main and trajectory)
+        # Process checkpoint file
         base_name=$(basename "$file" .gjf)
-        
-        # Process main checkpoint file if it exists
         if [ -f "${base_name}.chk" ]; then
-            echo "Converting main checkpoint file to formatted checkpoint..."
+            echo "Converting checkpoint file to formatted checkpoint..."
             formchk "${base_name}.chk" "${base_name}.fchk"
-            mv "${base_name}.chk" "${base_name}.fchk" "$chk_dir/"
-            echo "Main checkpoint files moved to: $chk_dir"
+
         else
-            echo "WARNING: Main checkpoint file not found"
-        fi
-        
-        # Process trajectory checkpoint files for each frame
-        echo "Checking for trajectory checkpoint files..."
-        chk_count=0
-        for traj_chk in ${base_name}.chk.*; do
-            if [ -f "$traj_chk" ] && [ "$traj_chk" != "${base_name}.chk.*" ]; then
-                chk_count=$((chk_count + 1))
-                frame_num="${traj_chk##*.}"
-                frame_name="${base_name}_frame${frame_num}"
-                echo "Converting trajectory checkpoint file $traj_chk (frame $frame_num)..."
-                formchk "$traj_chk" "${frame_name}.fchk"
-                cp "$traj_chk" "$chk_dir/${frame_name}.chk"
-                mv "${frame_name}.fchk" "$chk_dir/"
-            fi
-        done
-        if [ $chk_count -gt 0 ]; then
-            echo "Processed $chk_count trajectory checkpoint files"
-            rm -f ${base_name}.chk.*
-            rm -f ${base_name}.chk
-        else
-            echo "No trajectory checkpoint files found"
+            echo "WARNING: Checkpoint file not found"
         fi
     else
         echo "WARNING: ADMP calculation for $molecule at $temp may not have completed successfully."
+        # Examine error message
         echo "Error details:"
         grep -A5 "Error termination" "$(basename "${file%.gjf}.log")" || echo "No specific error message found."
     fi
