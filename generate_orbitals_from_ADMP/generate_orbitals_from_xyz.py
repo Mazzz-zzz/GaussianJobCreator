@@ -203,7 +203,7 @@ def main():
                       help="Base directory containing ADMP results")
     parser.add_argument("--output-dir", default="./orbital_inputs",
                       help="Directory to store generated input files (default: ./orbital_inputs)")
-    parser.add_argument("--max-frames", type=int, default=10,
+    parser.add_argument("--max-frames", type=int, default=100,
                       help="Maximum number of frames per trajectory (default: 10)")
     parser.add_argument("--method", default="B3LYP",
                       help="Computational method to use (default: B3LYP)")

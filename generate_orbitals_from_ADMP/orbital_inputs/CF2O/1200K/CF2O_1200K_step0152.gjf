@@ -1,0 +1,13 @@
+%chk=CF2O_1200K_step0152.chk
+%mem=8GB
+%nprocshared=4
+# B3LYP/6-31G(d) pop=full density=current
+
+CF2O Time step 152
+
+0 1
+F       1.295722     -0.581420      0.069399
+C       0.161261      0.195928     -0.156860
+O       0.026596      1.310733     -0.061396
+F      -1.419971     -0.645852      0.081368
+

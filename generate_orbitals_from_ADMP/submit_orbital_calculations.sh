@@ -98,25 +98,6 @@ check_existing_calc() {
     fi
 }
 
-# Function to generate orbital cube files from checkpoint
-generate_cube_files() {
-    local base_name="$1"
-    local directory="$2"
-    
-    cd "$directory"
-    if [ -f "${base_name}.chk" ]; then
-        echo "  - Generating formatted checkpoint and cube files"
-        formchk "${base_name}.chk"
-        cubegen 0 MO=HOMO "${base_name}.fchk" "${base_name}_homo.cube" 80 h
-        cubegen 0 MO=LUMO "${base_name}.fchk" "${base_name}_lumo.cube" 80 h
-        cubegen 0 density "${base_name}.fchk" "${base_name}_density.cube" 80 h
-        echo "  ✓ Successfully created cube files"
-    else
-        echo "  ✗ ERROR: Checkpoint file not found"
-    fi
-    cd - > /dev/null
-}
-
 # Find all Gaussian input files
 GJF_FILES=$(find "$INPUT_DIR" -name "*.gjf")
 GJF_COUNT=$(echo "$GJF_FILES" | wc -l)
@@ -137,7 +118,10 @@ SUCCESS=0
 FAILED=0
 SKIPPED=0
 
-for gjf_file in $GJF_FILES; do
+# Get a sorted list of all input files
+mapfile -t ALL_GJF_FILES < <(find "$INPUT_DIR" -name "*.gjf" | sort)
+
+for gjf_file in "${ALL_GJF_FILES[@]}"; do
     COUNTER=$((COUNTER + 1))
     
     # Get base name and directory
@@ -146,9 +130,10 @@ for gjf_file in $GJF_FILES; do
     
     # Extract molecule and temperature from directory structure
     rel_path=${input_dir#$INPUT_DIR/}
-    IFS='/' read -r molecule temp <<< "$rel_path"
+    molecule=$(echo "$rel_path" | cut -d '/' -f1)
+    temp=$(echo "$rel_path" | cut -d '/' -f2)
     
-    # Create corresponding output directory
+    # Create corresponding output directory - ensure it exists
     output_subdir="$OUTPUT_DIR/$molecule/$temp"
     mkdir -p "$output_subdir"
     
@@ -156,29 +141,64 @@ for gjf_file in $GJF_FILES; do
     log_file="$output_subdir/${base_name}.log"
     
     echo "[$COUNTER/$GJF_COUNT] Processing: $base_name"
+    echo "  - Input file: $gjf_file"
+    echo "  - Output directory: $output_subdir"
     
     # Check if calculation already exists
     if ! check_existing_calc "$log_file" "$base_name"; then
-        # Copy input file to output directory if they're different
-        if [ "$input_dir" != "$output_subdir" ]; then
-            cp "$gjf_file" "$output_subdir/"
+        # Verify input file exists
+        if [ ! -f "$gjf_file" ]; then
+            echo "  ✗ ERROR: Input file does not exist: $gjf_file"
+            FAILED=$((FAILED + 1))
+            echo "------------------------------------------------"
+            continue
         fi
+        
+        # Copy input file to output directory
+        cp "$gjf_file" "$output_subdir/"
         
         # Run Gaussian calculation
         echo "  - Running Gaussian calculation..."
-        cd "$output_subdir"
-        g16 "${base_name}.gjf"
+        
+        # Ensure we're in the output directory before running Gaussian
+        if ! cd "$output_subdir"; then
+            echo "  ✗ ERROR: Cannot change to output directory: $output_subdir"
+            FAILED=$((FAILED + 1))
+            echo "------------------------------------------------"
+            continue
+        fi
+        
+        # Run Gaussian and capture output
+        g16 "${base_name}.gjf" > "${base_name}_g16.out" 2>&1
+        G16_STATUS=$?
         
         # Check if calculation succeeded
-        if [ $? -eq 0 ]; then
+        if [ $G16_STATUS -eq 0 ]; then
             echo "  - Gaussian calculation completed successfully"
-            generate_cube_files "$base_name" "$output_subdir"
-            SUCCESS=$((SUCCESS + 1))
+            
+            # Generate cube files
+            if [ -f "${base_name}.chk" ]; then
+                echo "  - Generating formatted checkpoint and cube files"
+                formchk "${base_name}.chk"
+                cubegen 0 MO=HOMO "${base_name}.fchk" "${base_name}_homo.cube" 80 h
+                cubegen 0 MO=LUMO "${base_name}.fchk" "${base_name}_lumo.cube" 80 h
+                cubegen 0 density "${base_name}.fchk" "${base_name}_density.cube" 80 h
+                ## Adding potential too!
+                cubegen 0 Potential=scf "${base_name}.fchk" "${base_name}_pot.cube" 80 h
+                echo "  ✓ Successfully created cube files"
+                SUCCESS=$((SUCCESS + 1))
+            else
+                echo "  ✗ ERROR: Checkpoint file not found"
+                FAILED=$((FAILED + 1))
+            fi
         else
-            echo "  ✗ ERROR: Gaussian calculation failed"
+            echo "  ✗ ERROR: Gaussian calculation failed with status $G16_STATUS"
+            echo "  - See ${output_subdir}/${base_name}_g16.out for details"
             FAILED=$((FAILED + 1))
         fi
-        cd - > /dev/null
+        
+        # Return to original directory
+        cd "$SLURM_SUBMIT_DIR" || cd /tmp
     else
         SKIPPED=$((SKIPPED + 1))
     fi
