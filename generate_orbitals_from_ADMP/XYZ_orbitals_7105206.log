@@ -1,0 +1,847 @@
+Starting orbital calculations
+Input directory: ./orbital_inputs
+Output directory: ./orbital_results
+------------------------------------------------
+Found 20 Gaussian input files to process
+------------------------------------------------
+[1/20] Processing: CF2O_1000K_step0000
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0000.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0000
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0000.chk type G16
+ Write formatted file CF2O_1000K_step0000.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:17 2025
+ Aft UFChkP           Thu Mar 20 00:00:17 2025        0.05 cpu,        0.06 elapsed
+ Aft DecCub           Thu Mar 20 00:00:17 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:17 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:17 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.4999954746
+ Aft DoCube           Thu Mar 20 00:00:17 2025        0.36 cpu,        0.40 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:17 2025
+ Aft UFChkP           Thu Mar 20 00:00:17 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:17 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:17 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:17 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000003077
+ Aft DoCube           Thu Mar 20 00:00:18 2025        0.35 cpu,        0.36 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:18 2025
+ Aft UFChkP           Thu Mar 20 00:00:18 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:18 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:18 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:18 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from          density=       24.0314866452
+ Aft DoCube           Thu Mar 20 00:00:18 2025        0.57 cpu,        0.59 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[2/20] Processing: CF2O_1000K_step0005
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0005.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0005
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0005.chk type G16
+ Write formatted file CF2O_1000K_step0005.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:19 2025
+ Aft UFChkP           Thu Mar 20 00:00:19 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:19 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:19 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:19 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000280828
+ Aft DoCube           Thu Mar 20 00:00:20 2025        0.36 cpu,        0.59 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:20 2025
+ Aft UFChkP           Thu Mar 20 00:00:20 2025        0.05 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:20 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:20 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:20 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.4999990087
+ Aft DoCube           Thu Mar 20 00:00:20 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:20 2025
+ Aft UFChkP           Thu Mar 20 00:00:21 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:21 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:21 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:21 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from          density=       24.0550691428
+ Aft DoCube           Thu Mar 20 00:00:21 2025        0.57 cpu,        0.58 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[3/20] Processing: CF2O_1000K_step0010
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0010.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0010
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0010.chk type G16
+ Write formatted file CF2O_1000K_step0010.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:22 2025
+ Aft UFChkP           Thu Mar 20 00:00:22 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:22 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:22 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:22 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000140537
+ Aft DoCube           Thu Mar 20 00:00:23 2025        0.37 cpu,        0.36 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:23 2025
+ Aft UFChkP           Thu Mar 20 00:00:23 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:23 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:23 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:23 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.4999869922
+ Aft DoCube           Thu Mar 20 00:00:23 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:23 2025
+ Aft UFChkP           Thu Mar 20 00:00:23 2025        0.05 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:23 2025        0.00 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:23 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:23 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from          density=       24.0029256052
+ Aft DoCube           Thu Mar 20 00:00:24 2025        0.56 cpu,        0.58 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[4/20] Processing: CF2O_1000K_step0015
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0015.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0015
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0015.chk type G16
+ Write formatted file CF2O_1000K_step0015.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:25 2025
+ Aft UFChkP           Thu Mar 20 00:00:25 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:25 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:25 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:25 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000036412
+ Aft DoCube           Thu Mar 20 00:00:25 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:25 2025
+ Aft UFChkP           Thu Mar 20 00:00:25 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:25 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:25 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:25 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000157452
+ Aft DoCube           Thu Mar 20 00:00:26 2025        0.37 cpu,        0.36 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:26 2025
+ Aft UFChkP           Thu Mar 20 00:00:26 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:26 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:26 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:26 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from          density=       23.9908662199
+ Aft DoCube           Thu Mar 20 00:00:26 2025        0.59 cpu,        0.60 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[5/20] Processing: CF2O_1000K_step0020
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0020.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0020
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0020.chk type G16
+ Write formatted file CF2O_1000K_step0020.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:27 2025
+ Aft UFChkP           Thu Mar 20 00:00:27 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:27 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:27 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:27 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5000025566
+ Aft DoCube           Thu Mar 20 00:00:28 2025        0.35 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:28 2025
+ Aft UFChkP           Thu Mar 20 00:00:28 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:28 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:28 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:28 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from         orbitals=        0.5001037794
+ Aft DoCube           Thu Mar 20 00:00:28 2025        0.35 cpu,        0.36 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:28 2025
+ Aft UFChkP           Thu Mar 20 00:00:28 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:28 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:28 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:28 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511434 grid points.
+ ElSum from          density=       24.0023871571
+ Aft DoCube           Thu Mar 20 00:00:29 2025        0.58 cpu,        0.59 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[6/20] Processing: CF2O_1000K_step0025
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0025.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0025
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0025.chk type G16
+ Write formatted file CF2O_1000K_step0025.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:30 2025
+ Aft UFChkP           Thu Mar 20 00:00:30 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:30 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:30 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:30 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.5000055818
+ Aft DoCube           Thu Mar 20 00:00:30 2025        0.35 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:30 2025
+ Aft UFChkP           Thu Mar 20 00:00:30 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:30 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:30 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:30 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.5001107062
+ Aft DoCube           Thu Mar 20 00:00:31 2025        0.36 cpu,        0.46 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:31 2025
+ Aft UFChkP           Thu Mar 20 00:00:31 2025        0.05 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:31 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:31 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:31 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from          density=       24.0221518593
+ Aft DoCube           Thu Mar 20 00:00:31 2025        0.57 cpu,        0.59 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[7/20] Processing: CF2O_1000K_step0030
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0030.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0030
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0030.chk type G16
+ Write formatted file CF2O_1000K_step0030.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:32 2025
+ Aft UFChkP           Thu Mar 20 00:00:32 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:32 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:32 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:32 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.4999999877
+ Aft DoCube           Thu Mar 20 00:00:33 2025        0.38 cpu,        0.38 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:33 2025
+ Aft UFChkP           Thu Mar 20 00:00:33 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:33 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:33 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:33 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.5000278465
+ Aft DoCube           Thu Mar 20 00:00:33 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:33 2025
+ Aft UFChkP           Thu Mar 20 00:00:33 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:33 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:33 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:33 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from          density=       24.0165016245
+ Aft DoCube           Thu Mar 20 00:00:34 2025        0.59 cpu,        0.60 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[8/20] Processing: CF2O_1000K_step0035
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0035.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0035
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0035.chk type G16
+ Write formatted file CF2O_1000K_step0035.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:35 2025
+ Aft UFChkP           Thu Mar 20 00:00:35 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.4999949163
+ Aft DoCube           Thu Mar 20 00:00:35 2025        0.37 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:35 2025
+ Aft UFChkP           Thu Mar 20 00:00:35 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:35 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.4999247383
+ Aft DoCube           Thu Mar 20 00:00:36 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:36 2025
+ Aft UFChkP           Thu Mar 20 00:00:36 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:36 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:36 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:36 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from          density=       23.9968836368
+ Aft DoCube           Thu Mar 20 00:00:36 2025        0.59 cpu,        0.59 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[9/20] Processing: CF2O_1000K_step0040
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0040.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0040
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0040.chk type G16
+ Write formatted file CF2O_1000K_step0040.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:38 2025
+ Aft UFChkP           Thu Mar 20 00:00:38 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:38 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:38 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:38 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.4999952341
+ Aft DoCube           Thu Mar 20 00:00:38 2025        0.36 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:38 2025
+ Aft UFChkP           Thu Mar 20 00:00:38 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:38 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:38 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:38 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from         orbitals=        0.4998634957
+ Aft DoCube           Thu Mar 20 00:00:38 2025        0.37 cpu,        0.37 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:38 2025
+ Aft UFChkP           Thu Mar 20 00:00:39 2025        0.05 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:39 2025        0.00 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:39 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:39 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      517748 grid points.
+ ElSum from          density=       23.9800070079
+ Aft DoCube           Thu Mar 20 00:00:39 2025        0.57 cpu,        0.60 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[10/20] Processing: CF2O_1000K_step0045
+  - Input file: ./orbital_inputs/CF2O/1000K/CF2O_1000K_step0045.gjf
+  - Output directory: ./orbital_results/CF2O/1000K
+  - Setting up calculation for: CF2O_1000K_step0045
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file CF2O_1000K_step0045.chk type G16
+ Write formatted file CF2O_1000K_step0045.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:40 2025
+ Aft UFChkP           Thu Mar 20 00:00:40 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:40 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:40 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:40 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      504792 grid points.
+ ElSum from         orbitals=        0.4999991075
+ Aft DoCube           Thu Mar 20 00:00:41 2025        0.35 cpu,        0.35 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:41 2025
+ Aft UFChkP           Thu Mar 20 00:00:41 2025        0.04 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:41 2025        0.00 cpu,        0.00 elapsed
+ Aft Density          Thu Mar 20 00:00:41 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:41 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      504792 grid points.
+ ElSum from         orbitals=        0.4998636777
+ Aft DoCube           Thu Mar 20 00:00:41 2025        0.35 cpu,        0.36 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:41 2025
+ Aft UFChkP           Thu Mar 20 00:00:41 2025        0.05 cpu,        0.05 elapsed
+ Aft DecCub           Thu Mar 20 00:00:41 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:41 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:41 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      504792 grid points.
+ ElSum from          density=       23.9718055624
+ Aft DoCube           Thu Mar 20 00:00:42 2025        0.56 cpu,        0.58 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[11/20] Processing: PFMS_1000K_step0000
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0000.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0000
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0000.chk type G16
+ Write formatted file PFMS_1000K_step0000.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:45 2025
+ Aft UFChkP           Thu Mar 20 00:00:45 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:45 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:45 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:45 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5000093055
+ Aft DoCube           Thu Mar 20 00:00:46 2025        0.61 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:46 2025
+ Aft UFChkP           Thu Mar 20 00:00:46 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:46 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:46 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:46 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4997680855
+ Aft DoCube           Thu Mar 20 00:00:46 2025        0.63 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:46 2025
+ Aft UFChkP           Thu Mar 20 00:00:47 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:47 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:00:47 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:47 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9392031590
+ Aft DoCube           Thu Mar 20 00:00:48 2025        1.11 cpu,        1.13 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[12/20] Processing: PFMS_1000K_step0005
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0005.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0005
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0005.chk type G16
+ Write formatted file PFMS_1000K_step0005.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:51 2025
+ Aft UFChkP           Thu Mar 20 00:00:51 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:51 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:51 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:51 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999953761
+ Aft DoCube           Thu Mar 20 00:00:52 2025        0.62 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:52 2025
+ Aft UFChkP           Thu Mar 20 00:00:52 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:52 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:52 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:52 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4997935358
+ Aft DoCube           Thu Mar 20 00:00:52 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:52 2025
+ Aft UFChkP           Thu Mar 20 00:00:52 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:52 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:00:52 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:52 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       50.0196393740
+ Aft DoCube           Thu Mar 20 00:00:54 2025        1.15 cpu,        1.16 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[13/20] Processing: PFMS_1000K_step0010
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0010.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0010
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0010.chk type G16
+ Write formatted file PFMS_1000K_step0010.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:57 2025
+ Aft UFChkP           Thu Mar 20 00:00:57 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:57 2025        0.00 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:57 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:57 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999778857
+ Aft DoCube           Thu Mar 20 00:00:58 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:58 2025
+ Aft UFChkP           Thu Mar 20 00:00:58 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:58 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:00:58 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:58 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5006466189
+ Aft DoCube           Thu Mar 20 00:00:58 2025        0.63 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:00:58 2025
+ Aft UFChkP           Thu Mar 20 00:00:58 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:00:58 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:00:58 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:00:58 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9680714649
+ Aft DoCube           Thu Mar 20 00:01:00 2025        1.12 cpu,        1.14 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[14/20] Processing: PFMS_1000K_step0015
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0015.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0015
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0015.chk type G16
+ Write formatted file PFMS_1000K_step0015.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:03 2025
+ Aft UFChkP           Thu Mar 20 00:01:03 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:03 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:03 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:03 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999708339
+ Aft DoCube           Thu Mar 20 00:01:03 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:03 2025
+ Aft UFChkP           Thu Mar 20 00:01:04 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:04 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:04 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:04 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4998667029
+ Aft DoCube           Thu Mar 20 00:01:04 2025        0.64 cpu,        0.65 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:04 2025
+ Aft UFChkP           Thu Mar 20 00:01:04 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:04 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:04 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:04 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9671850257
+ Aft DoCube           Thu Mar 20 00:01:05 2025        1.12 cpu,        1.14 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[15/20] Processing: PFMS_1000K_step0020
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0020.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0020
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0020.chk type G16
+ Write formatted file PFMS_1000K_step0020.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:09 2025
+ Aft UFChkP           Thu Mar 20 00:01:09 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:09 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:09 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:09 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999925771
+ Aft DoCube           Thu Mar 20 00:01:09 2025        0.62 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:09 2025
+ Aft UFChkP           Thu Mar 20 00:01:09 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:09 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:09 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:09 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4995393038
+ Aft DoCube           Thu Mar 20 00:01:10 2025        0.63 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:10 2025
+ Aft UFChkP           Thu Mar 20 00:01:10 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:10 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:10 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:10 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9618815150
+ Aft DoCube           Thu Mar 20 00:01:11 2025        1.12 cpu,        1.14 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[16/20] Processing: PFMS_1000K_step0025
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0025.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0025
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0025.chk type G16
+ Write formatted file PFMS_1000K_step0025.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:15 2025
+ Aft UFChkP           Thu Mar 20 00:01:15 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:15 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:15 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:15 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5000286731
+ Aft DoCube           Thu Mar 20 00:01:15 2025        0.64 cpu,        0.65 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:15 2025
+ Aft UFChkP           Thu Mar 20 00:01:15 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:15 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:15 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:15 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5017528106
+ Aft DoCube           Thu Mar 20 00:01:16 2025        0.63 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:16 2025
+ Aft UFChkP           Thu Mar 20 00:01:16 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:16 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:16 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:16 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       50.0801691777
+ Aft DoCube           Thu Mar 20 00:01:17 2025        1.14 cpu,        1.15 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[17/20] Processing: PFMS_1000K_step0030
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0030.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0030
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0030.chk type G16
+ Write formatted file PFMS_1000K_step0030.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:21 2025
+ Aft UFChkP           Thu Mar 20 00:01:21 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:21 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:21 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:21 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999799088
+ Aft DoCube           Thu Mar 20 00:01:21 2025        0.61 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:21 2025
+ Aft UFChkP           Thu Mar 20 00:01:22 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:22 2025        0.00 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:22 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:22 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4997098401
+ Aft DoCube           Thu Mar 20 00:01:22 2025        0.62 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:22 2025
+ Aft UFChkP           Thu Mar 20 00:01:22 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:22 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:22 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:22 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9578609831
+ Aft DoCube           Thu Mar 20 00:01:24 2025        1.12 cpu,        1.13 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[18/20] Processing: PFMS_1000K_step0035
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0035.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0035
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0035.chk type G16
+ Write formatted file PFMS_1000K_step0035.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:27 2025
+ Aft UFChkP           Thu Mar 20 00:01:27 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:27 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:27 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:27 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5000321061
+ Aft DoCube           Thu Mar 20 00:01:28 2025        0.64 cpu,        0.65 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:28 2025
+ Aft UFChkP           Thu Mar 20 00:01:28 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:28 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:28 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:28 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5008307444
+ Aft DoCube           Thu Mar 20 00:01:28 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:28 2025
+ Aft UFChkP           Thu Mar 20 00:01:28 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:28 2025        0.01 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:28 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:29 2025        0.01 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       50.0464451792
+ Aft DoCube           Thu Mar 20 00:01:30 2025        1.13 cpu,        1.15 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[19/20] Processing: PFMS_1000K_step0040
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0040.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0040
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0040.chk type G16
+ Write formatted file PFMS_1000K_step0040.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:33 2025
+ Aft UFChkP           Thu Mar 20 00:01:33 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:33 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:33 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:33 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5000463370
+ Aft DoCube           Thu Mar 20 00:01:34 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:34 2025
+ Aft UFChkP           Thu Mar 20 00:01:34 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:34 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:34 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:34 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.5000893772
+ Aft DoCube           Thu Mar 20 00:01:34 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:34 2025
+ Aft UFChkP           Thu Mar 20 00:01:35 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:35 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:35 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:35 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9952945207
+ Aft DoCube           Thu Mar 20 00:01:36 2025        1.12 cpu,        1.13 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+[20/20] Processing: PFMS_1000K_step0045
+  - Input file: ./orbital_inputs/PFMS/1000K/PFMS_1000K_step0045.gjf
+  - Output directory: ./orbital_results/PFMS/1000K
+  - Setting up calculation for: PFMS_1000K_step0045
+  - Running Gaussian calculation...
+  - Gaussian calculation completed successfully
+  - Generating formatted checkpoint and cube files
+ Read checkpoint file PFMS_1000K_step0045.chk type G16
+ Write formatted file PFMS_1000K_step0045.fchk
+ FChkPn:  Coordinates translated and rotated.
+ FChkPn:  Coordinates match /B/ after translation and rotation.
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:39 2025
+ Aft UFChkP           Thu Mar 20 00:01:39 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:39 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:39 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:39 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4999610762
+ Aft DoCube           Thu Mar 20 00:01:40 2025        0.63 cpu,        0.64 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:40 2025
+ Aft UFChkP           Thu Mar 20 00:01:40 2025        0.09 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:40 2025        0.01 cpu,        0.01 elapsed
+ Aft Density          Thu Mar 20 00:01:40 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:40 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from         orbitals=        0.4998256302
+ Aft DoCube           Thu Mar 20 00:01:41 2025        0.62 cpu,        0.63 elapsed
+ Will use up to     0 threads.
+ Top CubeGen          Thu Mar 20 00:01:41 2025
+ Aft UFChkP           Thu Mar 20 00:01:41 2025        0.10 cpu,        0.10 elapsed
+ Aft DecCub           Thu Mar 20 00:01:41 2025        0.02 cpu,        0.02 elapsed
+ Aft Density          Thu Mar 20 00:01:41 2025        0.00 cpu,        0.00 elapsed
+ Bef DoCube           Thu Mar 20 00:01:41 2025        0.00 cpu,        0.00 elapsed
+ There are a total of      511056 grid points.
+ ElSum from          density=       49.9913497768
+ Aft DoCube           Thu Mar 20 00:01:42 2025        1.10 cpu,        1.12 elapsed
+  ✓ Successfully created cube files
+------------------------------------------------
+Orbital calculations completed
+Summary:
+  - Total input files: 20
+  - Successfully processed: 20
+  - Failed: 0
+  - Skipped (already existed): 0
+
+Number of completed calculations: 20
+Number of cube files generated: 60
+Results were generated in the following locations:
+./orbital_results/CF2O
+./orbital_results/CF2O/1000K
+./orbital_results/PFMS
+./orbital_results/PFMS/1000K
+Job completed
+Job ID           : 7105206
+Cluster          : spartan
+User/Project     : akhalilov/punim0131
+Nodes            : 1
+Wall-clock time  : 00:01:29 / 1-00:00:00
+
+Displaying overall resources usage from 2025-03-20 00:00:13 to 2025-03-20 00:01:42:
+
+NODE            CPU#        TOT%   ( USR   / SYS   / WIO   / IDLE  ) 
+
+spartan-bm162 : 
+                CPU# 1    : 30.9   (  28.1 /   2.8 /   0.6 /  68.4 ) 
+                CPU# 2    : 32.5   (  30.4 /   2.1 /   0.3 /  67.2 ) 
+                CPU# 3    : 28.5   (  26.0 /   2.5 /   0.3 /  71.3 ) 
+                CPU# 4    : 34.4   (  30.2 /   4.1 /   0.4 /  65.2 ) 
+
+
+Allocated CPUs            : 4    
+  CPUs with usage <25%    : 0    
+  CPUs with usage <50%    : 4    
+  CPUs with usage >50%    : 0    
+
+Memory used (RAM)         : 9.6%  [829MB of 8590MB]
+
+--------------------------------------------
+

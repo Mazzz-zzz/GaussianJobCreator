@@ -202,8 +202,8 @@ def main():
     parser.add_argument("--base-dir", default="../ADMP_decomposition_gaussian/admp_jobs/results",
                       help="Base directory containing ADMP results")
     parser.add_argument("--output-dir", default="./orbital_inputs",
-                      help="Directory to store generated input files (default: ./orbital_inputs)")
-    parser.add_argument("--max-frames", type=int, default=100,
+                      help="Directory to store generated input files")
+    parser.add_argument("--max-frames", type=int, default=10,
                       help="Maximum number of frames per trajectory (default: 10)")
     parser.add_argument("--method", default="B3LYP",
                       help="Computational method to use (default: B3LYP)")
@@ -231,9 +231,8 @@ def main():
         
         print(f"\nNext steps:")
         print(f"1. Generated {total_inputs} Gaussian input files in: {args.output_dir}")
-        print(f"2. Run the Gaussian calculations with the submission script:")
-        print(f"   $ sbatch generate_orbitals_from_ADMP/submit_orbital_calculations.sh")
-        print(f"   (No parameters needed - will use {args.output_dir} by default)")
+        print(f"2. Use the separate submit_orbital_calculations.sh script to run the calculations:")
+        print(f"   $ sbatch submit_orbital_calculations.sh {args.output_dir}")
         print(f"\nYou can control the number of frames with --max-frames")
         print(f"Default is 10 frames per trajectory to keep computation time reasonable.")
         print(f"You can also specify different computational methods with --method and --basis")
@@ -241,4 +240,4 @@ def main():
         print("No XYZ files found. Cannot generate Gaussian input files.")
 
 if __name__ == "__main__":
-    main() 
+    main()
