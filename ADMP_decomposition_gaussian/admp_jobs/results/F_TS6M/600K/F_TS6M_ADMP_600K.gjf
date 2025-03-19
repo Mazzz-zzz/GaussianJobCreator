@@ -1,0 +1,10 @@
+%chk=F_TS6M_ADMP TRJTRY RSTF=10_600K.chk
+%mem=8GB
+%nprocshared=8
+# B3LYP/6-31G(d) ADMP int=ultrafine
+
+F_TS6M ADMP thermal decomposition simulation targeting 600K
+
+0 2
+F       0.000000      0.000000      0.000000
+

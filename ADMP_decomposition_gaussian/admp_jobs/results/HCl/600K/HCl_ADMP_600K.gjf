@@ -1,0 +1,11 @@
+%chk=HCl_ADMP TRJTRY RSTF=10_600K.chk
+%mem=8GB
+%nprocshared=8
+# B3LYP/6-31G(d) ADMP int=ultrafine
+
+HCl ADMP thermal decomposition simulation targeting 600K
+
+0 1
+Cl      0.682834      0.000000      0.000000
+H      -0.682834      0.000000      0.000000
+

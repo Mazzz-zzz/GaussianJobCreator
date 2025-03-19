@@ -1,0 +1,361 @@
+Starting ADMP decomposition calculations
+----------------------------------------
+Processing: ./admp_jobs/600K/CF2O_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CF2O/600K/CF2O_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CF2O at 600K
+ADMP calculation for CF2O at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 1179648 Mar 19 15:01 CF2O_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/CF3_Radical_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CF3_Radical/600K/CF3_Radical_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CF3_Radical at 600K
+ADMP calculation for CF3_Radical at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 1048576 Mar 19 15:02 CF3_Radical_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/CH3_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CH3/600K/CH3_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CH3 at 600K
+ntrbks: Stale file handle
+grep: CH3_ADMP_600K.log: Stale file handle
+WARNING: ADMP calculation for CH3 at 600K may not have completed successfully.
+Error details:
+grep: CH3_ADMP_600K.log: Stale file handle
+No specific error message found.
+----------------------------------------
+Processing: ./admp_jobs/600K/CH3Br_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CH3Br/600K/CH3Br_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CH3Br at 600K
+WARNING: ADMP calculation for CH3Br at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l502.exe at Wed Mar 19 15:02:52 2025.
+ Job cpu time:       0 days  0 hours  0 minutes 18.0 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  5.3 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/CH3Cl_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CH3Cl/600K/CH3Cl_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CH3Cl at 600K
+ADMP calculation for CH3Cl at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 917504 Mar 19 15:04 CH3Cl_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/CH3F_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/CH3F/600K/CH3F_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for CH3F at 600K
+ntrbks: Stale file handle
+WARNING: ADMP calculation for CH3F at 600K may not have completed successfully.
+Error details:
+grep: CH3F_ADMP_600K.log: binary file matches
+----------------------------------------
+Processing: ./admp_jobs/600K/F_TS4M_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/F_TS4M/600K/F_TS4M_ADMP_600K.gjf
+Added %chk directive to input file.
+Input file validation complete.
+Running Gaussian for F_TS4M at 600K
+WARNING: ADMP calculation for F_TS4M at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l1.exe at Wed Mar 19 15:04:46 2025.
+ Job cpu time:       0 days  0 hours  0 minutes  0.1 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  0.0 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/F_TS5M_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/F_TS5M/600K/F_TS5M_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for F_TS5M at 600K
+WARNING: ADMP calculation for F_TS5M at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l502.exe at Wed Mar 19 15:04:50 2025.
+ Job cpu time:       0 days  0 hours  0 minutes 14.9 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  4.1 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/F_TS6M_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/F_TS6M/600K/F_TS6M_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for F_TS6M at 600K
+WARNING: ADMP calculation for F_TS6M at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l202.exe at Wed Mar 19 15:04:53 2025.
+ Job cpu time:       0 days  0 hours  0 minutes  6.1 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  1.9 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/H_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/H/600K/H_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for H at 600K
+WARNING: ADMP calculation for H at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l202.exe at Wed Mar 19 15:04:54 2025.
+ Job cpu time:       0 days  0 hours  0 minutes  2.8 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  1.1 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/HBr_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/HBr/600K/HBr_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for HBr at 600K
+WARNING: ADMP calculation for HBr at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l502.exe at Wed Mar 19 15:04:59 2025.
+ Job cpu time:       0 days  0 hours  0 minutes 12.8 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  4.0 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/HCF3_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/HCF3/600K/HCF3_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for HCF3 at 600K
+ADMP calculation for HCF3 at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 1179648 Mar 19 15:06 HCF3_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/HCl_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/HCl/600K/HCl_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for HCl at 600K
+ADMP calculation for HCl at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 786432 Mar 19 15:07 HCl_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/HF_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/HF/600K/HF_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for HF at 600K
+ADMP calculation for HF at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 720896 Mar 19 15:08 HF_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/ISOPFMS_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/ISOPFMS/600K/ISOPFMS_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for ISOPFMS at 600K
+ADMP calculation for ISOPFMS at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 3473408 Mar 19 15:11 ISOPFMS_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/Na_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/Na/600K/Na_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for Na at 600K
+WARNING: ADMP calculation for Na at 600K may not have completed successfully.
+Error details:
+ Error termination via Lnk1e in /apps/easybuild-2022/easybuild/software/Compiler/NVHPC/22.11-CUDA-11.7.0/Gaussian/g16c01-CUDA-11.7.0/g16/l202.exe at Wed Mar 19 15:11:24 2025.
+ Job cpu time:       0 days  0 hours  0 minutes  6.5 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  2.0 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+----------------------------------------
+Processing: ./admp_jobs/600K/PFMS_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/PFMS/600K/PFMS_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for PFMS at 600K
+ADMP calculation for PFMS at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 2752512 Mar 19 15:13 PFMS_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/SO2_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/SO2/600K/SO2_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for SO2 at 600K
+ADMP calculation for SO2 at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 983040 Mar 19 15:15 SO2_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/SO3_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/SO3/600K/SO3_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for SO3 at 600K
+ADMP calculation for SO3 at 600K completed successfully.
+WARNING: Main checkpoint file not found
+Checking for trajectory checkpoint files...
+-rw-rw-r-- 1 akhalilov punim0131 1245184 Mar 19 15:16 SO3_ADMP TRJTRY RSTF=10_600K.chk
+No trajectory checkpoint files found
+Checking Gaussian input for ADMP trajectory parameters...
+ADMP keyword found in route section
+ERROR: RSTF parameter not found in route section
+ERROR: TRJTRY parameter not found in route section
+Checking log file for ADMP trajectory steps...
+NOTE: For multiple frames in ADMP, ensure your input has ADMP RSTF=n parameter
+      where n is how often to save checkpoints (every n steps)
+      Also ensure TRJTRY is included to enable trajectory output
+----------------------------------------
+Processing: ./admp_jobs/600K/TS1M_Product1_ADMP_600K.gjf
+----------------------------------------
+Validating input file: ./admp_jobs/results/TS1M_Product1/600K/TS1M_Product1_ADMP_600K.gjf
+Added %chk directive to input file.
+Added ADMP RSTF parameter to save checkpoints every 10 steps.
+Added ADMP TRJTRY parameter to enable trajectory files.
+Input file validation complete.
+Running Gaussian for TS1M_Product1 at 600K

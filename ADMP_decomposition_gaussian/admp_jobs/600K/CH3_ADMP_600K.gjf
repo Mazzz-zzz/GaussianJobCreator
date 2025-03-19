@@ -1,0 +1,12 @@
+%mem=8GB
+%nprocshared=8
+# B3LYP/6-31G(d) ADMP int=ultrafine
+
+CH3 ADMP thermal decomposition simulation targeting 600K
+
+0 2
+C      -0.000000      0.000000      0.000000
+H       1.041297     -0.224293      0.193155
+H      -0.708913     -0.804912     -0.146538
+H      -0.332384      1.029205     -0.046617
+
