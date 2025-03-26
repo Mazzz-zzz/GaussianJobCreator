@@ -1,0 +1,7 @@
+*.log
+*.cube
+*.out
+*.chk
+*.fchk
+fort.*
+*.gjf

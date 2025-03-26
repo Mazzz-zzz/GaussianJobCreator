@@ -17,7 +17,7 @@ export GAUSS_PDEF=${SLURM_CPUS_PER_TASK}
 
 
 # Process all .gjf files in the directory
-for file in ./barrier_energy_gaussian/*.gjf; do
+for file in ./transition_state_job/*.gjf; do
     echo "Processing $file..."
     g16 "$file"
     echo "Completed $file"

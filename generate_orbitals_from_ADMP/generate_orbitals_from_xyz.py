@@ -103,7 +103,7 @@ def create_gaussian_input_file(molecule, temp, timestep, atoms, output_dir,
         f.write(f"%chk={base_name}.chk\n")
         f.write("%mem=8GB\n")
         f.write("%nprocshared=4\n")
-        f.write(f"# {method}/{basis} pop=full density=current\n\n")
+        f.write(f"# {method}/{basis} NoSymm pop=full density=current\n\n")
         f.write(f"{molecule} {timestep}\n\n")
         f.write("0 1\n")
         for symbol, x, y, z in atoms:
@@ -113,7 +113,7 @@ def create_gaussian_input_file(molecule, temp, timestep, atoms, output_dir,
     print(f"  - Created input file: {gjf_file}")
     return str(gjf_file)
 
-def process_xyz_files(xyz_files, output_dir="./orbital_inputs", max_frames=10,
+def process_xyz_files(xyz_files, output_dir="./orbital_inputs", max_frames=0,
                      method="B3LYP", basis="6-31G(d)"):
     """Process XYZ files and create Gaussian input files."""
     # Create output directory
@@ -203,8 +203,8 @@ def main():
                       help="Base directory containing ADMP results")
     parser.add_argument("--output-dir", default="./orbital_inputs",
                       help="Directory to store generated input files")
-    parser.add_argument("--max-frames", type=int, default=10,
-                      help="Maximum number of frames per trajectory (default: 10)")
+    parser.add_argument("--max-frames", type=int, default=0,
+                      help="Maximum number of frames per trajectory (0 for all frames, default: 0)")
     parser.add_argument("--method", default="B3LYP",
                       help="Computational method to use (default: B3LYP)")
     parser.add_argument("--basis", default="6-31G(d)",
@@ -233,8 +233,7 @@ def main():
         print(f"1. Generated {total_inputs} Gaussian input files in: {args.output_dir}")
         print(f"2. Use the separate submit_orbital_calculations.sh script to run the calculations:")
         print(f"   $ sbatch submit_orbital_calculations.sh {args.output_dir}")
-        print(f"\nYou can control the number of frames with --max-frames")
-        print(f"Default is 10 frames per trajectory to keep computation time reasonable.")
+        print(f"\nYou can control the number of frames with --max-frames (0 for all frames)")
         print(f"You can also specify different computational methods with --method and --basis")
     else:
         print("No XYZ files found. Cannot generate Gaussian input files.")

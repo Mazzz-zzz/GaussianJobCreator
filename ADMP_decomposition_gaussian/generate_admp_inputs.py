@@ -18,8 +18,8 @@ DEFAULT_CONFIG = {
     'input_dir': "../geom_optimise_guassian/gaussian_projects",
     'output_dir': "admp_jobs",
     'temperatures': [800],  # in Kelvin
-    'max_points': 2000,
-    'delta_t': 0.5,  # femtoseconds
+    'max_points': 50,
+    'delta_t': 1,  # femtoseconds ## default is 0.5
     'method': "B3LYP",
     'basis': "6-31G(d)",
     'mem': "8GB",
@@ -102,7 +102,7 @@ def create_admp_input(molecule_path, temp, output_dir,
         f.write(f"%nprocshared={nproc}\n")
         # Write route section with ADMP keyword - note that temperature is controlled via initial velocities
         #f.write(f"# {method}/{basis} ADMP int=ultrafine\n\n")
-        f.write(f"# {method}/{basis} ADMP int=ultrafine Temperature={temp}\n\n")
+        f.write(f"# {method}/{basis} ADMP(MaxPoints={max_points}) int=ultrafine Temperature={temp}\n\n")
         
         # Title
         f.write(f"{molecule_name} ADMP thermal decomposition simulation targeting {temp}K\n\n")

@@ -1,129 +1,5043 @@
 {
   "CF2O": {
-    "1000K": [
+    "800K": [
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0000.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0000.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
         "step": 0
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0005.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0001.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0002.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0003.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0004.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0005.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 5
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0010.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0006.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0007.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0008.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0009.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0010.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 10
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0015.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0011.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0012.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0013.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0014.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0015.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 15
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0020.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0016.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0017.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0018.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0019.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0020.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 20
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0025.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0021.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0022.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0023.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0024.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0025.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 25
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0030.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0026.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0027.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0028.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0029.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0030.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 30
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0035.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0031.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0032.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0033.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0034.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0035.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 35
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0040.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0036.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0037.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0038.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0039.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0040.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 40
       },
       {
-        "input_file": "orbital_inputs/CF2O/1000K/CF2O_1000K_step0045.gjf",
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0041.gjf",
         "molecule": "CF2O",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0042.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0043.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0044.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0045.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
         "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0046.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0047.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0048.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0049.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/CF2O/800K/CF2O_800K_step0050.gjf",
+        "molecule": "CF2O",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "CF3_Radical": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0000.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0001.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0002.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0003.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0004.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0005.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0006.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0007.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0008.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0009.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0010.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0011.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0012.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0013.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0014.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0015.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0016.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0017.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0018.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0019.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0020.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0021.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0022.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0023.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0024.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0025.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0026.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0027.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0028.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0029.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0030.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0031.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0032.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0033.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0034.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0035.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0036.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0037.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0038.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0039.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0040.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0041.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0042.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0043.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0044.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0045.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0046.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0047.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0048.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0049.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/CF3_Radical/800K/CF3_Radical_800K_step0050.gjf",
+        "molecule": "CF3_Radical",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "CH3": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0000.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0001.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0002.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0003.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0004.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0005.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0006.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0007.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0008.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0009.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0010.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0011.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0012.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0013.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0014.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0015.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0016.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0017.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0018.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0019.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0020.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0021.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0022.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0023.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0024.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0025.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0026.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0027.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0028.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0029.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0030.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0031.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0032.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0033.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0034.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0035.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0036.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0037.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0038.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0039.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0040.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0041.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0042.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0043.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0044.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0045.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0046.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0047.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0048.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0049.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/CH3/800K/CH3_800K_step0050.gjf",
+        "molecule": "CH3",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "CH3Br": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/CH3Br/800K/CH3Br_800K_step0000.gjf",
+        "molecule": "CH3Br",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/CH3Br/800K/CH3Br_800K_step0001.gjf",
+        "molecule": "CH3Br",
+        "temperature": "800K",
+        "step": 1
+      }
+    ]
+  },
+  "CH3Cl": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0000.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0001.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0002.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0003.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0004.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0005.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0006.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0007.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0008.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0009.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0010.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0011.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0012.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0013.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0014.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0015.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0016.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0017.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0018.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0019.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0020.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0021.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0022.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0023.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0024.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0025.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0026.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0027.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0028.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0029.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0030.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0031.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0032.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0033.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0034.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0035.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0036.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0037.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0038.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0039.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0040.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0041.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0042.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0043.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0044.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0045.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0046.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0047.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0048.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0049.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/CH3Cl/800K/CH3Cl_800K_step0050.gjf",
+        "molecule": "CH3Cl",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "CH3F": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0000.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0001.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0002.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0003.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0004.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0005.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0006.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0007.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0008.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0009.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0010.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0011.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0012.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0013.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0014.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0015.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0016.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0017.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0018.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0019.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0020.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0021.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0022.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0023.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0024.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0025.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0026.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0027.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0028.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0029.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0030.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0031.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0032.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0033.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0034.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0035.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0036.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0037.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0038.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0039.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0040.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0041.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0042.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0043.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0044.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0045.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0046.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0047.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0048.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0049.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/CH3F/800K/CH3F_800K_step0050.gjf",
+        "molecule": "CH3F",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "F_TS4M": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/F_TS4M/800K/F_TS4M_800K_step0000.gjf",
+        "molecule": "F_TS4M",
+        "temperature": "800K",
+        "step": 0
+      }
+    ]
+  },
+  "F_TS5M": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/F_TS5M/800K/F_TS5M_800K_step0000.gjf",
+        "molecule": "F_TS5M",
+        "temperature": "800K",
+        "step": 0
+      }
+    ]
+  },
+  "F_TS6M": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/F_TS6M/800K/F_TS6M_800K_step0000.gjf",
+        "molecule": "F_TS6M",
+        "temperature": "800K",
+        "step": 0
+      }
+    ]
+  },
+  "H": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/H/800K/H_800K_step0000.gjf",
+        "molecule": "H",
+        "temperature": "800K",
+        "step": 0
+      }
+    ]
+  },
+  "HBr": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/HBr/800K/HBr_800K_step0000.gjf",
+        "molecule": "HBr",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/HBr/800K/HBr_800K_step0001.gjf",
+        "molecule": "HBr",
+        "temperature": "800K",
+        "step": 1
+      }
+    ]
+  },
+  "HCF3": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0000.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0001.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0002.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0003.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0004.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0005.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0006.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0007.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0008.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0009.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0010.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0011.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0012.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0013.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0014.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0015.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0016.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0017.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0018.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0019.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0020.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0021.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0022.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0023.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0024.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0025.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0026.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0027.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0028.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0029.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0030.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0031.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0032.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0033.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0034.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0035.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0036.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0037.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0038.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0039.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0040.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0041.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0042.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0043.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0044.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0045.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0046.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0047.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0048.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0049.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/HCF3/800K/HCF3_800K_step0050.gjf",
+        "molecule": "HCF3",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "HCl": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0000.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0001.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0002.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0003.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0004.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0005.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0006.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0007.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0008.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0009.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0010.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0011.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0012.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0013.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0014.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0015.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0016.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0017.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0018.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0019.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0020.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0021.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0022.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0023.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0024.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0025.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0026.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0027.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0028.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0029.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0030.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0031.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0032.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0033.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0034.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0035.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0036.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0037.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0038.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0039.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0040.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0041.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0042.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0043.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0044.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0045.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0046.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0047.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0048.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0049.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/HCl/800K/HCl_800K_step0050.gjf",
+        "molecule": "HCl",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "HF": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0000.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0001.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0002.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0003.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0004.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0005.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0006.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0007.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0008.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0009.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0010.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0011.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0012.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0013.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0014.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0015.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0016.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0017.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0018.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0019.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0020.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0021.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0022.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0023.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0024.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0025.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0026.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0027.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0028.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0029.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0030.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0031.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0032.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0033.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0034.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0035.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0036.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0037.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0038.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0039.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0040.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0041.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0042.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0043.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0044.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0045.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0046.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0047.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0048.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0049.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/HF/800K/HF_800K_step0050.gjf",
+        "molecule": "HF",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "ISOPFMS": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0000.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0001.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0002.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0003.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0004.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0005.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0006.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0007.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0008.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0009.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0010.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0011.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0012.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0013.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0014.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0015.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0016.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0017.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0018.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0019.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0020.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0021.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0022.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0023.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0024.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0025.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0026.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0027.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0028.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0029.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0030.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0031.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0032.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0033.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0034.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0035.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0036.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0037.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0038.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0039.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0040.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0041.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0042.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0043.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0044.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0045.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0046.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0047.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0048.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0049.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/ISOPFMS/800K/ISOPFMS_800K_step0050.gjf",
+        "molecule": "ISOPFMS",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "Na": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/Na/800K/Na_800K_step0000.gjf",
+        "molecule": "Na",
+        "temperature": "800K",
+        "step": 0
       }
     ]
   },
   "PFMS": {
-    "1000K": [
+    "800K": [
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0000.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0000.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
         "step": 0
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0005.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0001.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0002.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0003.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0004.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0005.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 5
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0010.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0006.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0007.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0008.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0009.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0010.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 10
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0015.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0011.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0012.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0013.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0014.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0015.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 15
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0020.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0016.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0017.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0018.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0019.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0020.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 20
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0025.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0021.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0022.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0023.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0024.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0025.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 25
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0030.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0026.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0027.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0028.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0029.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0030.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 30
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0035.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0031.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0032.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0033.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0034.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0035.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 35
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0040.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0036.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0037.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0038.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0039.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0040.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 40
       },
       {
-        "input_file": "orbital_inputs/PFMS/1000K/PFMS_1000K_step0045.gjf",
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0041.gjf",
         "molecule": "PFMS",
-        "temperature": "1000K",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0042.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0043.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0044.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0045.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
         "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0046.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0047.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0048.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0049.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/PFMS/800K/PFMS_800K_step0050.gjf",
+        "molecule": "PFMS",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "SO2": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0000.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0001.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0002.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0003.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0004.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0005.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0006.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0007.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0008.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0009.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0010.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0011.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0012.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0013.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0014.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0015.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0016.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0017.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0018.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0019.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0020.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0021.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0022.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0023.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0024.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0025.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0026.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0027.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0028.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0029.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0030.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0031.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0032.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0033.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0034.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0035.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0036.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0037.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0038.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0039.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0040.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0041.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0042.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0043.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0044.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0045.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0046.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0047.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0048.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0049.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/SO2/800K/SO2_800K_step0050.gjf",
+        "molecule": "SO2",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "SO3": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0000.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0001.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0002.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0003.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0004.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0005.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0006.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0007.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0008.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0009.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0010.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0011.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0012.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0013.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0014.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0015.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0016.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0017.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0018.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0019.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0020.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0021.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0022.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0023.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0024.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0025.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0026.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0027.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0028.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0029.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0030.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0031.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0032.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0033.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0034.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0035.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0036.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0037.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0038.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0039.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0040.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0041.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0042.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0043.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0044.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0045.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0046.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0047.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0048.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0049.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/SO3/800K/SO3_800K_step0050.gjf",
+        "molecule": "SO3",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "TS1M_Product1": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0000.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0001.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0002.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0003.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0004.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0005.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0006.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0007.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0008.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0009.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0010.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0011.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0012.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0013.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0014.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0015.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0016.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0017.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0018.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0019.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0020.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0021.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0022.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0023.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0024.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0025.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0026.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0027.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0028.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0029.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0030.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0031.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0032.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0033.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0034.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0035.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0036.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0037.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0038.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0039.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0040.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0041.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0042.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0043.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0044.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0045.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0046.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0047.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0048.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0049.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/TS1M_Product1/800K/TS1M_Product1_800K_step0050.gjf",
+        "molecule": "TS1M_Product1",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "TS3M_Product1": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0000.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0001.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0002.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0003.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0004.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0005.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0006.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0007.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0008.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0009.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0010.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0011.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0012.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0013.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0014.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0015.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0016.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0017.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0018.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0019.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0020.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0021.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0022.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0023.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0024.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0025.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0026.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0027.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0028.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0029.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0030.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0031.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0032.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0033.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0034.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0035.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0036.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0037.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0038.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0039.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0040.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0041.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0042.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0043.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0044.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0045.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0046.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0047.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0048.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0049.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/TS3M_Product1/800K/TS3M_Product1_800K_step0050.gjf",
+        "molecule": "TS3M_Product1",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "TS4M_Product1": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0000.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0001.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0002.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0003.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0004.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0005.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0006.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0007.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0008.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0009.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0010.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0011.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0012.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0013.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0014.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0015.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0016.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0017.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0018.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0019.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0020.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0021.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0022.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0023.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0024.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0025.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0026.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0027.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0028.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0029.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0030.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0031.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0032.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0033.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0034.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0035.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0036.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0037.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0038.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0039.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0040.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0041.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0042.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0043.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0044.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0045.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0046.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0047.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0048.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0049.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/TS4M_Product1/800K/TS4M_Product1_800K_step0050.gjf",
+        "molecule": "TS4M_Product1",
+        "temperature": "800K",
+        "step": 50
+      }
+    ]
+  },
+  "TS5M_Product1": {
+    "800K": [
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0000.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0001.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0002.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0003.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0004.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0005.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0006.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0007.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0008.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0009.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0010.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0011.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0012.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0013.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0014.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0015.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0016.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0017.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0018.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0019.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0020.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0021.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0022.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0023.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0024.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0025.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0026.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 26
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0027.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0028.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0029.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0030.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 30
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0031.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0032.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 32
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0033.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 33
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0034.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0035.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 35
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0036.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 36
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0037.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0038.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 38
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0039.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 39
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0040.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0041.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 41
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0042.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 42
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0043.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 43
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0044.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 44
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0045.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 45
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0046.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 46
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0047.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 47
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0048.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 48
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0049.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 49
+      },
+      {
+        "input_file": "orbital_inputs/TS5M_Product1/800K/TS5M_Product1_800K_step0050.gjf",
+        "molecule": "TS5M_Product1",
+        "temperature": "800K",
+        "step": 50
       }
     ]
   }

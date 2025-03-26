@@ -146,14 +146,14 @@ molecules = {
         'multiplicity': 2
     },
     'CF3_Radical': {
-        'smiles': '[*](F)(F)F',  # Radical
+        'smiles': '[C](F)(F)F',  # Radical
         'charge': 0,
         'multiplicity': 2
     },
     
     # TS4M Products
     'TS4M_Product1': {
-        'smiles': 'FC(F)(F)OS(=O)(=O)1',
+        'smiles': 'FC(F)(F)OS(=O)=O',
         'charge': 0,
         'multiplicity': 1
     },
@@ -165,7 +165,7 @@ molecules = {
     
     # TS5M Products (same products as TS4M but different pathway)
     'TS5M_Product1': {
-        'smiles': 'FC(F)(F)OS(=O)(=O)1',
+        'smiles': 'FC(F)(F)OS(=O)=O',
         'charge': 0,
         'multiplicity': 1
     },

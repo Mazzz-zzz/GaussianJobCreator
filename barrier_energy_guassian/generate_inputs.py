@@ -8,37 +8,143 @@ optimized geometries from geom_optimise_gaussian folder.
 import os
 from pathlib import Path
 import shutil
+import re
 
 def create_ts_input(reactant_path, product_path, ts_name, output_dir):
     """Create Gaussian input file for transition state search using QST3"""
     output_path = Path(output_dir) / f"{ts_name}.gjf"
     
+    # Extract charge and multiplicity from reactant file
+    reactant_charge = 0
+    reactant_multiplicity = 1
+    try:
+        with open(reactant_path, 'r') as r:
+            lines = r.readlines()
+            for i, line in enumerate(lines):
+                if line.strip() and not line.startswith("#") and not line.startswith("%"):
+                    # Skip title line
+                    if i > 0 and lines[i-1].strip() and not lines[i-1].startswith("#") and not lines[i-1].startswith("%"):
+                        # This should be the charge and multiplicity line
+                        parts = line.strip().split()
+                        if len(parts) >= 2 and all(p.isdigit() for p in parts[:2]):
+                            reactant_charge = int(parts[0])
+                            reactant_multiplicity = int(parts[1])
+                        break
+    except Exception as e:
+        print(f"Warning: Could not extract charge and multiplicity from reactant file: {e}")
+    
+    # Extract geometry data
+    def extract_geometry(file_path):
+        """Extract only valid atomic coordinates from a Gaussian input file."""
+        geometry_lines = []
+        atom_coordinate_pattern = re.compile(r'^([A-Za-z]+|\d+)\s+(-?\d+\.\d+)\s+(-?\d+\.\d+)\s+(-?\d+\.\d+)')
+        
+        with open(file_path, 'r') as f:
+            content = f.read()
+            
+            # Find the charge and multiplicity line
+            matches = re.findall(r'\n\s*(\d+\s+\d+)\s*\n', content)
+            if not matches:
+                print(f"Warning: Could not identify charge/multiplicity section in {file_path}")
+                return []
+                
+            # The geometry section follows the charge/multiplicity line
+            sections = content.split(matches[0])
+            if len(sections) < 2:
+                print(f"Warning: Could not split content properly for {file_path}")
+                return []
+                
+            # Geometry is in the section after the charge/multiplicity
+            geometry_section = sections[1].strip()
+            
+            # Process line by line to get valid atom coordinates
+            for line in geometry_section.split('\n'):
+                line = line.strip()
+                if not line:
+                    break  # Empty line marks end of coordinates
+                    
+                # Check if line matches atom coordinate pattern
+                match = atom_coordinate_pattern.match(line)
+                if match:
+                    geometry_lines.append(line + '\n')
+                else:
+                    # If we hit a line that's not an atom coordinate, we're done
+                    # with the geometry section
+                    break
+                    
+        return geometry_lines
+    
+    # Get geometries
+    reactant_geom = extract_geometry(reactant_path)
+    product_geom = extract_geometry(product_path)
+    
+    # Debug output - print what we've extracted
+    print(f"Extracted {len(reactant_geom)} atom lines from reactant")
+    print(f"Extracted {len(product_geom)} atom lines from product")
+    
+    if not reactant_geom or not product_geom:
+        print("WARNING: Failed to extract geometry data!")
+        print(f"Reactant file: {reactant_path}")
+        print(f"Product file: {product_path}")
+    
     with open(output_path, 'w') as f:
         # Header with TS search specifications
         f.write("%mem=3GB\n")
         f.write("%nprocshared=4\n")
-        f.write("# opt=(ts,calcfc,noeigen,qst3) freq m062x/def2tzvp geom=connectivity int=ultrafine scf=(tight,xqc)\n\n")
+        f.write("# opt=(ts,calcfc,noeigen,qst3) freq m062x/def2tzvp int=ultrafine scf=(tight,xqc)\n\n")
         
         # Title
         f.write(f"{ts_name} transition state search\n\n")
         
-        # Copy reactant geometry
-        f.write("--Link1--\n")
-        with open(reactant_path, 'r') as r:
-            for line in r:
-                if "opt=" not in line and "#" not in line:
-                    f.write(line)
+        # Charge and multiplicity for reactant
+        f.write(f"{reactant_charge} {reactant_multiplicity}\n")
         
-        # Copy product geometry
-        f.write("--Link1--\n")
-        with open(product_path, 'r') as p:
-            for line in p:
-                if "opt=" not in line and "#" not in line:
-                    f.write(line)
+        # Write reactant geometry
+        for line in reactant_geom:
+            f.write(line)
+        f.write("\n")
         
-        # Initial TS guess (average of reactant and product)
-        f.write("--Link1--\n")
-        # ... (will be generated from reactant/product interpolation)
+        # Separator for product section
+        f.write("--Link1--\n\n")
+        
+        # Add header again for product section
+        f.write("%mem=3GB\n")
+        f.write("%nprocshared=4\n")
+        f.write("# opt=(ts,calcfc,noeigen,qst3) freq m062x/def2tzvp int=ultrafine scf=(tight,xqc)\n\n")
+        f.write(f"{ts_name} product geometry\n\n")
+        
+        # Charge and multiplicity for product
+        f.write(f"{reactant_charge} {reactant_multiplicity}\n")
+        
+        # Write product geometry
+        for line in product_geom:
+            f.write(line)
+        f.write("\n")
+        
+        # Separator for TS guess section
+        f.write("--Link1--\n\n")
+        
+        # Add header again for TS guess section
+        f.write("%mem=3GB\n")
+        f.write("%nprocshared=4\n")
+        f.write("# opt=(ts,calcfc,noeigen,qst3) freq m062x/def2tzvp int=ultrafine scf=(tight,xqc)\n\n")
+        f.write(f"{ts_name} TS guess geometry\n\n")
+        
+        # Charge and multiplicity for TS guess
+        f.write(f"{reactant_charge} {reactant_multiplicity}\n")
+        
+        # For TS guess, we'll use the reactant geometry
+        for line in reactant_geom:
+            f.write(line)
+        f.write("\n")
+        
+    # Debug - print the total size of the file
+    file_size = os.path.getsize(output_path)
+    print(f"Created {output_path}, size: {file_size} bytes")
+    
+    # If file is suspiciously small, alert
+    if file_size < 500:
+        print("WARNING: Output file is very small, something might be wrong!")
 
 def setup_reaction_paths():
     """Define reaction pathways and their components"""
@@ -75,72 +181,27 @@ def setup_reaction_paths():
         #}
     }
 
-def create_barrier_calculation_script(output_dir):
-    """Create a Python script to calculate barrier energies from Gaussian outputs"""
-    script_path = Path(output_dir) / "calculate_barriers.py"
-    
-    with open(script_path, 'w') as f:
-        f.write("""#!/usr/bin/env python
-
-import os
-from pathlib import Path
-
-def extract_energy(log_file):
-    \"\"\"Extract final energy from Gaussian output file\"\"\"
-    energy = None
-    with open(log_file, 'r') as f:
-        for line in f:
-            if "SCF Done:" in line:
-                energy = float(line.split()[4])
-    return energy
-
-def calculate_barrier(reactant_log, ts_log, product_logs):
-    \"\"\"Calculate barrier energy and reaction energy\"\"\"
-    reactant_e = extract_energy(reactant_log)
-    ts_e = extract_energy(ts_log)
-    product_e = sum(extract_energy(p) for p in product_logs)
-    
-    barrier = (ts_e - reactant_e) * 627.509  # Convert Hartrees to kcal/mol
-    rxn_energy = (product_e - reactant_e) * 627.509
-    
-    return barrier, rxn_energy
-
-def main():
-    reaction_paths = {
-        # Add your reaction paths here
-    }
-    
-    results = {}
-    for rxn, paths in reaction_paths.items():
-        barrier, rxn_energy = calculate_barrier(
-            f"{paths['reactant']}.log",
-            f"{paths['ts_name']}.log",
-            [f"{p}.log" for p in paths['products']]
-        )
-        results[rxn] = {
-            'barrier': barrier,
-            'reaction_energy': rxn_energy
-        }
-    
-    # Print results
-    print("\\nBarrier Energy Results (kcal/mol):")
-    print("-" * 50)
-    for rxn, data in results.items():
-        print(f"{rxn}:")
-        print(f"  Barrier Energy: {data['barrier']:.2f}")
-        print(f"  Reaction Energy: {data['reaction_energy']:.2f}")
-
-if __name__ == "__main__":
-    main()
-""")
-
 def main():
     # Create directory structure
-    base_dir = Path("barrier_energy_gaussian")
-    base_dir.mkdir(exist_ok=True)
+    transition_state_dir = Path("transition_state_job")
+    transition_state_dir.mkdir(exist_ok=True)
+    
+    base_dir = transition_state_dir 
     
     # Get optimized geometries directory
     geom_opt_dir = Path("../geom_optimise_guassian/gaussian_projects")
+    
+    # Check if input directory exists
+    if not geom_opt_dir.exists():
+        print(f"WARNING: Input directory {geom_opt_dir} does not exist!")
+        print("Trying alternate path...")
+        geom_opt_dir = Path("geom_optimise_guassian/gaussian_projects")
+        if not geom_opt_dir.exists():
+            print(f"ERROR: Cannot find input directory at {geom_opt_dir} either!")
+            print("Please check path to optimized geometry files.")
+            return
+        else:
+            print(f"Found input directory at {geom_opt_dir}")
     
     # Setup reaction paths
     reaction_paths = setup_reaction_paths()
@@ -150,6 +211,19 @@ def main():
         reactant_file = geom_opt_dir / f"{components['reactant']}.gjf"
         product_files = [geom_opt_dir / f"{p}.gjf" for p in components['products']]
         
+        # Check if input files exist
+        if not reactant_file.exists():
+            print(f"ERROR: Reactant file {reactant_file} does not exist!")
+            continue
+            
+        if not product_files[0].exists():
+            print(f"ERROR: Product file {product_files[0]} does not exist!")
+            continue
+        
+        print(f"Creating TS input for {rxn_name}...")
+        print(f"  Reactant: {reactant_file}")
+        print(f"  Product: {product_files[0]}")
+        
         # Create TS input
         create_ts_input(
             reactant_file,
@@ -157,17 +231,9 @@ def main():
             components['ts_name'],
             base_dir
         )
-        
-        # Copy reactant and product input files
-        for file in [reactant_file] + product_files:
-            shutil.copy2(file, base_dir)
     
-    # Create barrier calculation script
-    create_barrier_calculation_script(base_dir)
-    
-    print("Generated barrier energy calculation files in barrier_energy_gaussian/")
-    print("1. Run Gaussian calculations for all .gjf files")
-    print("2. Run calculate_barriers.py to get barrier energies")
+    print(f"Generated transition state search files in {base_dir}/")
+    print("Run Gaussian calculations for all .gjf files in the transition_state_job directory")
 
 if __name__ == "__main__":
     main()
