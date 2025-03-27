@@ -30,6 +30,7 @@ def create_gaussian_input(mol, name, charge, multiplicity, output_dir="gaussian_
     output_path = Path(output_dir) / f"{name}.gjf"
     
     with open(output_path, 'w') as f:
+        f.write(f"%chk={Path(output_dir) / f'{name}.chk'}\n")
         # Header
         f.write("%mem=3GB\n")
         f.write("%nprocshared=4\n")

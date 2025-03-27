@@ -20,8 +20,25 @@ export GAUSS_PDEF=${SLURM_CPUS_PER_TASK}
 for file in ./gaussian_projects/*.gjf; do
     echo "Processing $file..."
     g16 "$file"
+    
+    # Generate formatted checkpoint file
+    basename=$(basename "$file" .gjf)
+    echo "Generating formatted checkpoint file for $basename..."
+    #formchk "./gaussian_projects/${basename}.chk"
+
+
+    
+    
     echo "Completed $file"
     echo "----------------------------------------"
+done
+
+# Generate Z-matrix from formatted checkpoint file
+cd /home/akhalilov/GaussianJobCreator/geom_optimise_guassian/gaussian_projects
+for file in *.gjf; do
+    basename=$(basename "$file" .gjf)
+    echo "Generating Z-matrix for $basename..."
+    newzmat -ichk -zmat -symm -round -gencon "${basename}" "${basename}_zmat"
 done
 
 
