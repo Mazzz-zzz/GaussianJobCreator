@@ -38,7 +38,7 @@ cd /home/akhalilov/GaussianJobCreator/geom_optimise_guassian/gaussian_projects
 for file in *.gjf; do
     basename=$(basename "$file" .gjf)
     echo "Generating Z-matrix for $basename..."
-    newzmat -ichk -zmat -symm -round -gencon "${basename}" "${basename}_zmat"
+    newzmat -ichk -zmat -symm -round -gencon  -rebuildzmat "${basename}" "${basename}_zmat"
 done
 
 
