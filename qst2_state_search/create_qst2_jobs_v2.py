@@ -24,49 +24,91 @@ from pathlib import Path
 # CONFIG SECTION - All configurable parameters for QST2 job generation
 # ============================================================================
 
-# Input/output directories
-INPUT_FOLDER = "../geom_optimise_gaussian/gaussian_projects"
-OUTPUT_FOLDER = "qst2_jobs"
-
-# Geometry settings
-SEPARATION = 3.0  # Separation distance (in Å) for product geometry
-
-# Gaussian calculation settings
-GAUSSIAN_ROUTE_LINE = "# opt=(maxcyc=999,noeigen) freq m062x/def2tzvp geom=connectivity int=ultrafine scf=(tight,xqc)"
+# Default configuration
+DEFAULT_CONFIG = {
+    # Input/output directories
+    'input_dir': "../geom_optimise_guassian/gaussian_projects",
+    'output_dir': "qst2_jobs",
+    
+    # Geometry settings
+    'separation': 3.0,  # Separation distance (in Å) for product geometry
+    
+    # Gaussian calculation settings
+    'level_of_theory': "m062x/def2tzvp",
+    'mem': "8GB",
+    'nproc': 8,
+    'add_freq': True,    # Add frequency calculation
+    'geom_connect': True, # Use connectivity information
+    'int_ultrafine': True, # Use ultrafine integration grid
+    'scf_tight': True,   # Use tight SCF convergence
+    'scf_xqc': True,     # Use XQC for SCF convergence
+    
+    # Execution mode
+    'mode': 'all',       # 'all', 'reaction', or 'list'
+    'reaction': None,    # Specific reaction to process (if mode='reaction')
+    
+    # Output control
+    'verbose': True      # Print detailed progress information
+}
 
 # File naming patterns (for file extensions)
-FILE_EXTENSION = ".com"
+FILE_EXTENSION = "_zmat.com"
 OUTPUT_EXTENSION = ".gjf"
-
-# Reaction pairs to process
-# Format: {
-#   "reaction_name": {
-#     "reactant": "path/to/reactant_file",  # Relative to INPUT_FOLDER
-#     "product": "path/to/product_file"     # Relative to INPUT_FOLDER
-#   }
-# }
-REACTION_PAIRS = {
-    "SN2_halogen_exchange_F_Cl": {
-        "reactant": "Na_CH3F_reactant",
-        "product": "Na_CH3Cl_product"
-    },
-    "SN2_halogen_exchange_F_Br": {
-        "reactant": "Na_CH3F_reactant",
-        "product": "Na_CH3Br_product"
-    },
-    "TS1M_PFMS_Pathway": {
-        "reactant": "PFMS_reactant",
-        "product": "TS1M_Product1_HF_product"
-    },
-    "TS2M_PFMS_Pathway": {
-        "reactant": "PFMS_reactant",
-        "product": "HCF3_SO3_product"
-    }
-}
 
 # ============================================================================
 # END CONFIG SECTION
 # ============================================================================
+
+def setup_reaction_pairs():
+    """Dictionary of common reaction pairs based on molecules in generate_inputs.py"""
+    return {
+        "SN2_halogen_exchange_F_Cl": {
+            "type": "decomposition",
+            "reactants": ["Na", "CH3F"],
+            "products": ["CH3Cl", "Na"]
+        },
+        "SN2_halogen_exchange_F_Br": {
+            "type": "decomposition",
+            "reactants": ["Na", "CH3F"],
+            "products": ["CH3Br", "Na"]
+        },
+        "TS1M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["PFMS"],
+            "products": ["TS1M_Product1", "HF"]
+        },
+        "TS2M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["PFMS"],
+            "products": ["HCF3", "SO3"]
+        },
+        "TS3M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["ISOPFMS"],
+            "products": ["TS1M_Product1", "CF3_Radical"]
+        },
+        "TS4M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["PFMS"],
+            "products": ["TS4M_Product1", "F_TS4M"]
+        },
+        "TS5M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["PFMS"],
+            "products": ["TS5M_Product1", "F_TS5M"]
+        },
+        "TS6M_PFMS_Pathway": {
+            "type": "decomposition",
+            "reactants": ["PFMS"],
+            "products": ["F_TS6M", "CF2O", "SO2"]
+        }
+    }
+
+def ensure_directory(directory):
+    """Create directory if it doesn't exist"""
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        print(f"Created directory: {directory}")
 
 def parse_zmatrix_file(file_path):
     """
@@ -158,14 +200,43 @@ def translate_geometry(geom_lines, dx=0.0, dy=0.0, dz=0.0):
         new_lines.append(new_line)
     return new_lines
 
-def write_qst2_job(reactant_data, product_data, output_file, separation, reaction_name):
+def build_route_line(config):
+    """Build the Gaussian route line based on configuration settings"""
+    route = f"# opt=(maxcyc=999,noeigen) {config['level_of_theory']}"
+    
+    if config['add_freq']:
+        route += " freq"
+    if config['geom_connect']:
+        route += " geom=connectivity"
+    if config['int_ultrafine']:
+        route += " int=ultrafine"
+    
+    scf_options = []
+    if config['scf_tight']:
+        scf_options.append("tight")
+    if config['scf_xqc']:
+        scf_options.append("xqc")
+    
+    if scf_options:
+        route += f" scf=({','.join(scf_options)})"
+    
+    return route
+
+def write_qst2_job(reactant_data, product_data, output_file, config, reaction_name):
     """
     Write a Gaussian QST2 input file that combines the reactant and product geometries.
     
     The product geometry is translated by 'separation' along the x-axis.
     """
+    # Build route line from config
+    route_line = build_route_line(config)
+    
     # Use route line from config
-    header = f"{GAUSSIAN_ROUTE_LINE}\n\n"
+    header = f"%mem={config['mem']}\n"
+    header += f"%nprocshared={config['nproc']}\n"
+    header += f"%chk=QST2_{reaction_name}.chk\n"
+    header += f"{route_line}\n\n"
+    
     job_title = f"QST2 job for {reaction_name}: {reactant_data['title']} to {product_data['title']}\n\n"
     
     # Get charge/multiplicity lines
@@ -173,7 +244,7 @@ def write_qst2_job(reactant_data, product_data, output_file, separation, reactio
     product_charge = product_data['charge_line'] + "\n"
     
     # Translate the product geometry
-    translated_product_geom = translate_geometry(product_data['geom_lines'], dx=separation)
+    translated_product_geom = translate_geometry(product_data['geom_lines'], dx=config['separation'])
     
     with open(output_file, 'w') as f:
         f.write(header)
@@ -203,37 +274,127 @@ def write_qst2_job(reactant_data, product_data, output_file, separation, reactio
         f.write("\n")
     print(f"Wrote QST2 input to {output_file}")
 
-def main():
-    # Create output directory if it does not exist
-    output_dir = Path(OUTPUT_FOLDER)
-    output_dir.mkdir(exist_ok=True)
+def list_available_molecules(input_dir):
+    """List all available molecules from .com files in the input directory"""
+    com_files = list(Path(input_dir).glob(f"*{FILE_EXTENSION}"))
+    print("Available molecules:")
+    for i, file in enumerate(com_files):
+        print(f"{i+1}. {file.stem.replace(FILE_EXTENSION, '')}")
+    return com_files
+
+def main(config=None):
+    """
+    Main function to generate QST2 input files based on configuration
     
-    # Base path for input files
-    input_dir = Path(INPUT_FOLDER)
+    Parameters:
+    -----------
+    config : dict, optional
+        Configuration dictionary. If None, uses DEFAULT_CONFIG
+    """
+    # Use default configuration if none provided
+    if config is None:
+        config = DEFAULT_CONFIG.copy()
     
-    # Process each reaction pair from config
-    for reaction_name, files in REACTION_PAIRS.items():
-        print(f"Processing reaction: {reaction_name}")
+    # Create output directory
+    ensure_directory(config['output_dir'])
+    
+    # Get reaction pairs
+    reaction_pairs = setup_reaction_pairs()
+    
+    # Handle different execution modes
+    if config['mode'] == 'list':
+        print("Available predefined reactions:")
+        for i, name in enumerate(reaction_pairs.keys()):
+            reactants = ", ".join(reaction_pairs[name]["reactants"])
+            products = ", ".join(reaction_pairs[name]["products"])
+            reaction_type = reaction_pairs[name]["type"]
+            print(f"{i+1}. {name} ({reaction_type}): {reactants} -> {products}")
+        return
+    
+    # Find input directory
+    potential_paths = [
+        Path(config['input_dir']),
+        Path("../geom_optimise_guassian/gaussian_projects"),
+        Path("geom_optimise_guassian/gaussian_projects"),
+        Path("../geom_optimise_gaussian/gaussian_projects"),  # Note the correct spelling
+        Path("geom_optimise_gaussian/gaussian_projects")      # Note the correct spelling
+    ]
+    
+    input_dir = None
+    for path in potential_paths:
+        if path.exists():
+            input_dir = path
+            if config['verbose']:
+                print(f"Found input directory at {input_dir}")
+            break
+    
+    if not input_dir:
+        print("ERROR: Cannot find input directory for optimized geometries!")
+        print("Searched the following paths:")
+        for path in potential_paths:
+            print(f"  - {path}")
+        return
         
-        # Get full paths for reactant and product files
-        reactant_file = input_dir / f"{files['reactant']}{FILE_EXTENSION}"
-        product_file = input_dir / f"{files['product']}{FILE_EXTENSION}"
+    config['input_dir'] = str(input_dir)
+    
+    # Process specific reaction or all predefined reactions
+    reactions_to_process = []
+    if config['mode'] == 'reaction':
+        if config['reaction'] not in reaction_pairs:
+            print(f"Error: Reaction '{config['reaction']}' not found in predefined reactions")
+            print("Use mode='list' to see available reactions")
+            return
+        reactions_to_process = [config['reaction']]
+    else:
+        # Process all predefined reactions
+        reactions_to_process = list(reaction_pairs.keys())
+    
+    for reaction_name in reactions_to_process:
+        if config['verbose']:
+            print(f"\nProcessing reaction: {reaction_name}")
+        reaction = reaction_pairs[reaction_name]
+        reaction_type = reaction["type"]
         
-        # Check if both files exist
-        if not reactant_file.exists():
-            print(f"Warning: Reactant file not found: {reactant_file}")
-            continue
-        if not product_file.exists():
-            print(f"Warning: Product file not found: {product_file}")
+        if config['verbose']:
+            print(f"Reaction type: {reaction_type}")
+        
+        # For reactions with multiple reactants/products, we need to create a combined structure
+        # This is just a placeholder - in practice, you would need to align these molecules properly
+        # For now, we'll just use the first reactant and first product
+        reactant_file = os.path.join(config['input_dir'], f"{reaction['reactants'][0]}{FILE_EXTENSION}")
+        product_file = os.path.join(config['input_dir'], f"{reaction['products'][0]}{FILE_EXTENSION}")
+        
+        if not os.path.exists(reactant_file):
+            print(f"Warning: Reactant file {reactant_file} not found")
             continue
             
+        if not os.path.exists(product_file):
+            print(f"Warning: Product file {product_file} not found")
+            continue
+        
         # Parse files and create QST2 job
         reactant_data = parse_zmatrix_file(reactant_file)
         product_data = parse_zmatrix_file(product_file)
         
-        # Output QST2 file
-        output_file = output_dir / f"QST2_{reaction_name}{OUTPUT_EXTENSION}"
-        write_qst2_job(reactant_data, product_data, output_file, SEPARATION, reaction_name)
+        # For decomposition reactions, we need to ensure the product atoms are positioned
+        # relative to the reactant atoms. This is handled by the translate_geometry function
+        # which moves the product geometry by the specified separation.
+        if reaction_type == "decomposition":
+            if config['verbose']:
+                print(f"Handling decomposition reaction: Moving product atoms relative to reactant atoms")
         
+        # Output QST2 file
+        output_file = os.path.join(config['output_dir'], f"QST2_{reaction_name}{OUTPUT_EXTENSION}")
+        write_qst2_job(reactant_data, product_data, output_file, config, reaction_name)
+
+    if config['verbose']:
+        print(f"\nQST2 input generation complete. Files saved to {config['output_dir']}")
+        print("Run these Gaussian calculations to locate transition states.")
+        print("\nTips for verifying transition states:")
+        print("1. Check that the optimization converged to a stationary point")
+        print("2. Verify that the structure has exactly ONE imaginary frequency")
+        print("3. Examine the imaginary mode to confirm it corresponds to the reaction coordinate")
+        print("4. For confirmation, perform IRC calculations from the transition state")
+
 if __name__ == "__main__":
     main()

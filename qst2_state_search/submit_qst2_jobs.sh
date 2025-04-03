@@ -34,7 +34,7 @@ validate_input_file() {
 
     
     # Verify two molecular specifications exist (required for QST2)
-    local charge_mult_count=$(grep -c -E '^\s*-?[0-9]+\s+[0-9]+\s*$' "$input_file")
+    local charge_mult_count=$(grep -c -E '^\s*-?[0-9]+[, ]+[0-9]+\s*$' "$input_file")
     if [ "$charge_mult_count" -lt 2 ]; then
         echo "ERROR: QST2 requires two molecular specifications (reactant and product). Only found $charge_mult_count."
         return 1
@@ -45,7 +45,7 @@ validate_input_file() {
 }
 
 # Process all QST2 input files in qst2_jobs directory
-find ./qst2_jobs -name "TS_*.gjf" | sort | while read -r file; do
+find ./qst2_jobs -name "QST2_*.gjf" | sort | while read -r file; do
     echo "Processing: $file"
     echo "----------------------------------------"
     
