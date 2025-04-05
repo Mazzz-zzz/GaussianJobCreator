@@ -9,7 +9,7 @@ IMPORTANT: avoid the use of '2d' and '3d' in the names of species, transition st
 (these strings are employed when generating the 2d and 3d files of the molecules)
 If you want to use 3D coordinates, store them in a xyz/ directory in the same directory as the python script
 
-> <id> PFMS
+> <id> 1502984803620600000001
 
 > <options> 
 title              0         # print a title (1) or not (0) 
@@ -34,7 +34,7 @@ graph_edge_color   black     # color of graph edge, if set to 'energy', will be 
 reso_2d            1         # generate resonant structures and choose the best
 
 > <wells> 
-
+1502984803620600000001 0.0
 
 > <bimolec> 
 
