@@ -1,0 +1,8 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "Gaussian/g16c01-CUDA-11.7.0"
+   Try: "module spider Gaussian/g16c01-CUDA-11.7.0" to see how to load the
+module(s).
+
+
+
+/var/spool/slurm/job7791295/slurm_script: line 18: formchk: command not found

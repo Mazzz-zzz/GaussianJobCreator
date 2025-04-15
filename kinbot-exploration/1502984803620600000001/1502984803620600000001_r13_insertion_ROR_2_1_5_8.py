@@ -11,10 +11,10 @@ label = '1502984803620600000001_r13_insertion_ROR_2_1_5_8'
 logfile = '1502984803620600000001_r13_insertion_ROR_2_1_5_8.log'
 
 atom = [np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')]
-geom = [[np.float64(1.72628), np.float64(0.116836), np.float64(-0.072109)], [np.float64(-0.224165), np.float64(0.420247), np.float64(0.249927)], [np.float64(1.848064), np.float64(-0.838683), np.float64(0.895496)], [np.float64(1.523835), np.float64(-0.599453), np.float64(-1.207467)], [np.float64(2.212386), np.float64(1.480142), np.float64(0.015134)], [np.float64(3.2201), np.float64(1.714835), np.float64(1.080963)], [np.float64(2.333712), np.float64(2.169506), np.float64(-1.282191)], [np.float64(0.538961), np.float64(2.160635), np.float64(0.873379)], [np.float64(0.78998), np.float64(2.932782), np.float64(1.413618)]]
+geom = [[np.float64(1.688892), np.float64(0.100564), np.float64(-0.06511)], [np.float64(-0.094274), np.float64(0.210978), np.float64(0.833851)], [np.float64(2.13696), np.float64(-0.872746), np.float64(0.728492)], [np.float64(1.231528), np.float64(-0.535772), np.float64(-1.149278)], [np.float64(2.055523), np.float64(1.501887), np.float64(0.001255)], [np.float64(2.782172), np.float64(1.872544), np.float64(1.174856)], [np.float64(2.374581), np.float64(2.105889), np.float64(-1.266282)], [np.float64(0.168708), np.float64(2.110341), np.float64(0.26529)], [np.float64(0.082685), np.float64(2.976199), np.float64(-0.151269)]]
 mol = Atoms(symbols=atom, positions=geom)
 
-kwargs = {'method': 'b3lyp', 'basis': '6-31+g*', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r13_insertion_ROR_2_1_5_8', 'label': '1502984803620600000001_r13_insertion_ROR_2_1_5_8', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': '1 2 F\n1 3 F\n1 4 F\n1 5 F\n5 6 F\n5 7 F\n5 8 F\n8 9 F\n'}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r13_insertion_ROR_2_1_5_8', 'label': '1502984803620600000001_r13_insertion_ROR_2_1_5_8', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': '1 2 F\n1 3 F\n1 4 F\n1 5 F\n5 6 F\n5 7 F\n5 8 F\n8 9 F\n'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

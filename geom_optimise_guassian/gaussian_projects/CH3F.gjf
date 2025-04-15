@@ -1,6 +1,6 @@
 %chk=gaussian_projects/CH3F.chk
-%mem=3GB
-%nprocshared=4
+%mem=10GB
+%nprocshared=8
 # opt=(maxcyc=999,noeigen) freq m062x/def2tzvp geom=connectivity int=ultrafine scf=(tight,xqc)
 
 CH3F optimization

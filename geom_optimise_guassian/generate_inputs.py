@@ -32,8 +32,8 @@ def create_gaussian_input(mol, name, charge, multiplicity, output_dir="gaussian_
     with open(output_path, 'w') as f:
         f.write(f"%chk={Path(output_dir) / f'{name}.chk'}\n")
         # Header
-        f.write("%mem=3GB\n")
-        f.write("%nprocshared=4\n")
+        f.write("%mem=10GB\n")
+        f.write("%nprocshared=8\n")
         f.write("# opt=(maxcyc=999,noeigen) freq m062x/def2tzvp geom=connectivity int=ultrafine scf=(tight,xqc)\n\n")
         
         # Title
@@ -60,47 +60,47 @@ def create_gaussian_input(mol, name, charge, multiplicity, output_dir="gaussian_
 # Dictionary of molecules with their specifications
 molecules = {
     # Reactants
-    'Na': {
-        'smiles': '[Na]',
-        'charge': 0,
-        'multiplicity': 2
-    },
+    #'Na': {
+    #    'smiles': '[Na]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
     'CH3F': {
         'smiles': 'CF',
         'charge': 0,
         'multiplicity': 1
     },
-    'CH3Cl': {
-        'smiles': 'CCl',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'CH3Br': {
-        'smiles': 'CBr',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'HCl': {
-        'smiles': 'Cl',  # Will be converted to HCl
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'HBr': {
-        'smiles': 'Br',  # Will be converted to HBr
-        'charge': 0,
-        'multiplicity': 1
-    },
+    #'CH3Cl': {
+    #    'smiles': 'CCl',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'CH3Br': {
+    #    'smiles': 'CBr',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'HCl': {
+    #    'smiles': 'Cl',  # Will be converted to HCl
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'HBr': {
+    #    'smiles': 'Br',  # Will be converted to HBr
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
     # Products
-    'CH3': {
-        'smiles': '[CH3]',
-        'charge': 0,
-        'multiplicity': 2
-    },
-    'H': {
-        'smiles': '[H]',
-        'charge': 0,
-        'multiplicity': 2
-    },
+    #'CH3': {
+    #    'smiles': '[CH3]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
+    #'H': {
+    #    'smiles': '[H]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
 
     # PFMS and all its reaction pathways
     'PFMS': {
@@ -108,90 +108,100 @@ molecules = {
         'charge': 0,
         'multiplicity': 1
     },
+    'PFES': {
+        'smiles': 'C(C(F)(F)S(=O)(=O)O)(F)(F)F',  # Reactant
+        'charge': 0,
+        'multiplicity': 1
+    },
+    'PFOS': {
+        'smiles': 'C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F',  # Reactant
+        'charge': 0,
+        'multiplicity': 1
+    },
     
     # TS1M Products
-    'TS1M_Product1': {
-        'smiles': 'FC1(F)OS(=O)(=O)1',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'HF': {
-        'smiles': 'F',  # Will be converted to HF
-        'charge': 0,
-        'multiplicity': 1
-    },
+    #'TS1M_Product1': {
+    #    'smiles': 'FC1(F)OS(=O)(=O)1',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'HF': {
+    #    'smiles': 'F',  # Will be converted to HF
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
     
     # TS2M Products
-    'HCF3': {
-        'smiles': 'C(F)(F)F',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'SO3': {
-        'smiles': 'S(=O)(=O)=O',
-        'charge': 0,
-        'multiplicity': 1
-    },
+    #'HCF3': {
+    #    'smiles': 'C(F)(F)F',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'SO3': {
+    #    'smiles': 'S(=O)(=O)=O',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
     
     # ISOPFMS Product
-    'ISOPFMS': {
-        'smiles': 'C(F)(F)(F)OS(O)(=O)O',
-        'charge': 0,
-        'multiplicity': 1
-    },
+    #'ISOPFMS': {
+    #    'smiles': 'C(F)(F)(F)OS(O)(=O)O',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
     
     # TS3M Products
-    'TS3M_Product1': {
-        'smiles': '[O]S(O[H])=O',  # Radical
-        'charge': 0,
-        'multiplicity': 2
-    },
-    'CF3_Radical': {
-        'smiles': '[C](F)(F)F',  # Radical
-        'charge': 0,
-        'multiplicity': 2
-    },
+    #'TS3M_Product1': {
+    #    'smiles': '[O]S(O[H])=O',  # Radical
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
+    #'CF3_Radical': {
+    #    'smiles': '[C](F)(F)F',  # Radical
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
     
     # TS4M Products
-    'TS4M_Product1': {
-        'smiles': 'FC(F)(F)OS(=O)=O',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'F_TS4M': {  # Adding suffix to distinguish from other F products
-        'smiles': '[F]',
-        'charge': 0,
-        'multiplicity': 2
-    },
+    #'TS4M_Product1': {
+    #    'smiles': 'FC(F)(F)OS(=O)=O',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'F_TS4M': {  # Adding suffix to distinguish from other F products
+    #    'smiles': '[F]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
     
     # TS5M Products (same products as TS4M but different pathway)
-    'TS5M_Product1': {
-        'smiles': 'FC(F)(F)OS(=O)=O',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'F_TS5M': {
-        'smiles': '[F]',
-        'charge': 0,
-        'multiplicity': 2
-    },
+    #'TS5M_Product1': {
+    #    'smiles': 'FC(F)(F)OS(=O)=O',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'F_TS5M': {
+    #    'smiles': '[F]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
     
     # TS6M Products
-    'F_TS6M': {
-        'smiles': '[F]',
-        'charge': 0,
-        'multiplicity': 2
-    },
-    'CF2O': {
-        'smiles': 'FC(=O)F',
-        'charge': 0,
-        'multiplicity': 1
-    },
-    'SO2': {
-        'smiles': 'O=S=O',
-        'charge': 0,
-        'multiplicity': 1
-    }
+    #'F_TS6M': {
+    #    'smiles': '[F]',
+    #    'charge': 0,
+    #    'multiplicity': 2
+    #},
+    #'CF2O': {
+    #    'smiles': 'FC(=O)F',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #},
+    #'SO2': {
+    #    'smiles': 'O=S=O',
+    #    'charge': 0,
+    #    'multiplicity': 1
+    #}
 }
 
 def main():

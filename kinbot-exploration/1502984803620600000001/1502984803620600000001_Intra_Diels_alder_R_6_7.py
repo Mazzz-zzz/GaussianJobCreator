@@ -11,10 +11,10 @@ label = '1502984803620600000001_Intra_Diels_alder_R_6_7'
 logfile = '1502984803620600000001_Intra_Diels_alder_R_6_7.log'
 
 atom = [np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')]
-geom = [[np.float64(-1.107548), np.float64(-0.162346), np.float64(-0.314474)], [np.float64(-1.215809), np.float64(0.230982), np.float64(-1.589157)], [np.float64(-1.912383), np.float64(0.678441), np.float64(0.361489)], [np.float64(-1.744937), np.float64(-1.335014), np.float64(-0.27377)], [np.float64(0.607564), np.float64(-0.240201), np.float64(0.330997)], [np.float64(1.541293), np.float64(-1.201399), np.float64(-0.052065)], [np.float64(0.92153), np.float64(-0.759033), np.float64(1.579078)], [np.float64(0.980515), np.float64(1.263303), np.float64(0.008651)], [np.float64(1.919772), np.float64(1.525269), np.float64(-0.059987)]]
+geom = [[np.float64(-0.140433), np.float64(-0.0688), np.float64(0.064512)], [np.float64(-0.797655), np.float64(0.424428), np.float64(-0.975139)], [np.float64(-0.659137), np.float64(0.516972), np.float64(1.125291)], [np.float64(-0.500931), np.float64(-1.331385), np.float64(0.141322)], [np.float64(1.666313), np.float64(0.132922), np.float64(-0.065175)], [np.float64(2.381684), np.float64(-0.557458), np.float64(-0.992832)], [np.float64(2.555739), np.float64(-0.44644), np.float64(0.795396)], [np.float64(1.668063), np.float64(1.660809), np.float64(-0.145576)], [np.float64(2.449648), np.float64(2.195246), np.float64(-0.341554)]]
 mol = Atoms(symbols=atom, positions=geom)
 
-kwargs = {'method': 'b3lyp', 'basis': '6-31+g*', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_Intra_Diels_alder_R_6_7', 'label': '1502984803620600000001_Intra_Diels_alder_R_6_7', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': ''}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_Intra_Diels_alder_R_6_7', 'label': '1502984803620600000001_Intra_Diels_alder_R_6_7', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': ''}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

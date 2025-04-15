@@ -10,9 +10,9 @@ db = connect('/home/akhalilov/GaussianJobCreator/kinbot-exploration/150298480362
 label = '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F'
 logfile = '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F.log'
 
-mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(-1.116885), np.float64(-0.199741), np.float64(-0.275098)], [np.float64(-1.179281), np.float64(0.119938), np.float64(-1.566565)], [np.float64(-1.778418), np.float64(0.702491), np.float64(0.447621)], [np.float64(-1.652008), np.float64(-1.408013), np.float64(-0.084808)], [np.float64(0.682604), np.float64(-0.295051), np.float64(0.287718)], [np.float64(0.706154), np.float64(-0.495512), np.float64(1.728049)], [np.float64(1.404075), np.float64(-1.174512), np.float64(-0.618551)], [np.float64(0.996689), np.float64(1.269936), np.float64(-0.071689)], [np.float64(1.927069), np.float64(1.480466), np.float64(0.144086)]])
+mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(-0.124861), np.float64(-0.106944), np.float64(0.035608)], [np.float64(-0.700103), np.float64(0.369753), np.float64(-1.044009)], [np.float64(-0.593105), np.float64(0.50697), np.float64(1.097466)], [np.float64(-0.356828), np.float64(-1.397614), np.float64(0.130004)], [np.float64(1.726717), np.float64(0.113132), np.float64(-0.071247)], [np.float64(2.294362), np.float64(-0.281886), np.float64(1.170777)], [np.float64(2.170663), np.float64(-0.440728), np.float64(-1.302914)], [np.float64(1.662245), np.float64(1.686323), np.float64(-0.169114)], [np.float64(2.544202), np.float64(2.077292), np.float64(-0.240319)]])
 
-kwargs = {'method': 'b3lyp', 'basis': '6-31+g*', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F', 'label': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,forward,MaxPoints=30,StepSize=20'}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F', 'label': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,forward,MaxPoints=30,StepSize=10'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc
@@ -50,7 +50,7 @@ if success:
     label = '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod'
     logfile = '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod.log'
     # start the product optimization
-    prod_kwargs = {'method': 'b3lyp', 'basis': '6-31+g*', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod', 'label': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
+    prod_kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod', 'label': '1502984803620600000001_r12_insertion_R_8_5_1_IRC_F_prod', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
     calc_prod = Gaussian(**prod_kwargs)
     mol_prod = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=mol.positions)
     mol_prod.calc = calc_prod

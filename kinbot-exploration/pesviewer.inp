@@ -9,7 +9,7 @@ IMPORTANT: avoid the use of '2d' and '3d' in the names of species, transition st
 (these strings are employed when generating the 2d and 3d files of the molecules)
 If you want to use 3D coordinates, store them in a xyz/ directory in the same directory as the python script
 
-> <id> PFMS
+> <id> PFMS-new
 
 > <options> 
 title              0         # print a title (1) or not (0) 
@@ -34,16 +34,21 @@ graph_edge_color   black     # color of graph edge, if set to 'energy', will be 
 reso_2d            1         # generate resonant structures and choose the best
 
 > <wells> 
-
+1502984803620600000001 0.00
 
 > <bimolec> 
-
+1002122340540000000001_500620380000000000001 55.22
+690931140000000000002_811611290340000000002 63.33
+1342503882400600000001_160000000000000000003 84.22
+1332333552100000000002_170170000000000000002 75.63
 
 > <ts> 
-
+1502984803620600000001_r12_insertion_R_2_1_5 85.99 1502984803620600000001 1002122340540000000001_500620380000000000001 
 
 > <barrierless> 
-
+nobar_0 1502984803620600000001 690931140000000000002_811611290340000000002
+nobar_1 1502984803620600000001 1342503882400600000001_160000000000000000003
+nobar_2 1502984803620600000001 1332333552100000000002_170170000000000000002
 
 > <help>
 File follows the rules of SD file format for keywords. Keywords are case

@@ -35,7 +35,7 @@
         1900.0,
         2000.0
     ],
-    "barrier_threshold": 10,
+    "barrier_threshold": 100,
     "barrier_threshold_L2": null,
     "barrier_threshold_add": 10.0,
     "barrier_uq": 1.0,
@@ -52,7 +52,7 @@
     "barrierless_saddle_single_point_template": "",
     "barrierless_saddle_start": 2.0,
     "barrierless_saddle_step": 0.2,
-    "basis": "6-31+g*",
+    "basis": "6-31++G(2df,p)",
     "bimol": 0,
     "bimol_families": [
         "all"
@@ -70,7 +70,7 @@
     "comb_pi": 1,
     "comb_rad": 1,
     "conf_grid": 3,
-    "conformer_search": 0,
+    "conformer_search": 1,
     "correct_submerged": 0,
     "delete_intermediate_files": 0,
     "difference_threshold": 0.1,
@@ -98,10 +98,10 @@
     "homolytic_bonds": {},
     "imagfreq_threshold": 50.0,
     "imagfreq_uq": 1.1,
-    "input_file": "PFMS.json",
-    "integral": "",
+    "input_file": "PFMS-V3.json",
+    "integral": "ultrafine",
     "irc_maxpoints": 30,
-    "irc_stepsize": 20,
+    "irc_stepsize": 10,
     "keep_chemids": [
         "none"
     ],
@@ -112,7 +112,7 @@
     "me_code": "mess",
     "mesmer_command": "mesmer",
     "mess_command": "mess",
-    "method": "b3lyp",
+    "method": "bmk",
     "methodclass": "dft",
     "min_bond_break": 2,
     "mult": 1,
@@ -123,7 +123,7 @@
     "nrotation": 12,
     "one_reaction_comb": 0,
     "one_reaction_fam": 0,
-    "opt": "",
+    "opt": "VeryTight",
     "pes": 1,
     "plot_hir_profiles": 0,
     "pp_length": {
@@ -308,7 +308,7 @@
         "none"
     ],
     "skip_families": [
-        "hom_sci"
+        "none"
     ],
     "skip_reactions": [
         "none"

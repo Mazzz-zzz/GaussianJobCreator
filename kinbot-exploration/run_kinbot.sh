@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --account="punim0131"
-#SBATCH --nodes=1
+#SBATCH --nodes=8
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --time=3-00:00:00
 #SBATCH --mem=8G
 #SBATCH --partition=sapphire
-#SBATCH --job-name=kinbot_propyl
+#SBATCH --job-name=kinbot_PFMS
 #SBATCH --output=kinbot_%j.log
 #SBATCH --error=kinbot_%j.err
 
@@ -21,14 +21,11 @@ module load Anaconda3/2024.02-1
 eval "$(conda shell.bash hook)"
 
 # Activate KinBot environment
-conda activate kinbot-env
-
-
-# Make sure we're in the right directory
-cd $SLURM_SUBMIT_DIR
-
-# Make sure qu.tmp is executable
-chmod +x qu.tmp
+conda activate kinbot-dev
 
 # Run KinBot
-kinbot demo.json 
+pes PFMS-V3.json
+
+##DO NOT ADD/EDIT BEYOND THIS LINE##
+##Job monitor command to list the resource usage
+my-job-stats -a -n -s 

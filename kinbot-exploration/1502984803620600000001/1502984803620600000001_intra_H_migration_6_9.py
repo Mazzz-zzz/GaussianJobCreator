@@ -11,10 +11,10 @@ label = '1502984803620600000001_intra_H_migration_6_9'
 logfile = '1502984803620600000001_intra_H_migration_6_9.log'
 
 atom = [np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')]
-geom = [[np.float64(1.475755), np.float64(0.420121), np.float64(-1.847402)], [np.float64(2.349595), np.float64(1.22197), np.float64(-2.476723)], [np.float64(0.216847), np.float64(0.857213), np.float64(-2.279612)], [np.float64(1.618383), np.float64(-0.808462), np.float64(-2.431832)], [np.float64(1.62368), np.float64(0.405415), np.float64(-0.028215)], [np.float64(0.954285), np.float64(-0.883924), np.float64(0.526621)], [np.float64(1.448271), np.float64(1.732755), np.float64(0.522981)], [np.float64(3.029888), np.float64(-0.705656), np.float64(0.366384)], [np.float64(2.055671), np.float64(-1.346692), np.float64(0.654515)]]
+geom = [[np.float64(1.658672), np.float64(0.989837), np.float64(-1.423578)], [np.float64(2.470122), np.float64(0.506784), np.float64(-2.350878)], [np.float64(2.251326), np.float64(2.057497), np.float64(-0.947803)], [np.float64(0.594898), np.float64(1.415935), np.float64(-2.067413)], [np.float64(1.254481), np.float64(-0.246517), np.float64(-0.121035)], [np.float64(0.98848), np.float64(-1.530542), np.float64(-0.762664)], [np.float64(0.387353), np.float64(0.36782), np.float64(0.83872)], [np.float64(2.595899), np.float64(-0.948972), np.float64(0.274579)], [np.float64(2.075655), np.float64(-1.830046), np.float64(-0.352362)]]
 mol = Atoms(symbols=atom, positions=geom)
 
-kwargs = {'method': 'b3lyp', 'basis': '6-31+g*', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_6_9', 'label': '1502984803620600000001_intra_H_migration_6_9', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': ''}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_6_9', 'label': '1502984803620600000001_intra_H_migration_6_9', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'opt': 'NoFreeze,TS,CalcAll,NoEigentest,MaxCycle=999', 'addsec': ''}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

@@ -1,0 +1,48 @@
+{
+    "title": "PFMS-new",
+    "verbose": 0,
+    "structure": [
+        "C", -1.020000000000, -0.175481808484, -0.286312424369,
+        "F", -1.100000000000, 0.009235884657, -1.597808045674,
+        "F", -1.540000000000, 0.877409042422, 0.332491847655,
+        "F", -1.680000000000, -1.256080313362, 0.046179423285,
+        "S", 0.740000000000, -0.369435386283, 0.212425347113,
+        "O", 0.750000000000, -0.452558348197, 1.625515699645,
+        "O", 1.310000000000, -1.339203275276, -0.637276041338,
+        "O", 1.290000000000, 1.043654966249, -0.221661231770,
+        "H", 1.240000000000, 1.662459238273, 0.517209540796
+    ],
+    "charge": 0,
+    "mult": 1,
+    "barrier_threshold": 100,
+    "pes": 1,
+    "conformer_search": 1,
+
+    "irc_stepsize": 10,     
+    "integral": "ultrafine",
+    "opt": "VeryTight",
+
+
+
+
+
+    
+    "qc": "gauss",
+    "method": "b3lyp",
+    "basis": "6-31G(d)",
+    "calcall_ts": 1,
+    
+    "high_level": 1,
+    
+    
+    "queuing": "slurm",
+    "queue_template": "defaultqueue.sbatch",
+    "queue_job_limit": 100,
+    
+    "ppn": 8,
+    "single_point_ppn": 4,
+    "zf": 4,
+    "delete_intermediate_files": 0,
+    "username": "akhalilov",
+    "slurm_feature": ""
+} 
