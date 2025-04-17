@@ -1,0 +1,1354 @@
+{
+  "1502984803620600000001_r12_insertion_R_5_1_3": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0040.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 40
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0037.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 37
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0034.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 34
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0031.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0028.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 28
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0025.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0022.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0019.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0016.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0013.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0010.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0007.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0004.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0001.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0001.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0004.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0007.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0010.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0013.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0016.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
+        "reaction_type": "Forward",
+        "step": 16
+      }
+    ]
+  },
+  "1502984803620600000001_r12_insertion_R_6_5_8": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0010.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0009.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0008.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0007.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0006.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0005.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0004.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0003.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0002.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0001.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0000.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0000.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0001.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0002.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0003.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0004.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0005.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0006.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0007.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0008.gjf",
+        "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
+        "reaction_type": "Forward",
+        "step": 8
+      }
+    ]
+  },
+  "1502984803620600000001_r13_insertion_ROR_2_1_5_8": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0009.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0008.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0007.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0006.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0005.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0004.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0003.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0002.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0001.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0000.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0000.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0001.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0002.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0003.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0004.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0005.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0006.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0007.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0008.gjf",
+        "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
+        "reaction_type": "Forward",
+        "step": 8
+      }
+    ]
+  },
+  "1502823922432230600001_intra_H_migration_5_9": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0013.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0012.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0011.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0010.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0009.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0008.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0007.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0006.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0005.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0004.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0003.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0002.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0001.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0000.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0000.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0001.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0002.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0003.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0004.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_5_9",
+        "reaction_type": "Forward",
+        "step": 4
+      }
+    ]
+  },
+  "1502823922432230600001_intra_H_migration_7_9": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0012.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0010.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0008.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0006.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0004.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0002.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0000.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0001.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0003.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0005.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0007.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0009.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0011.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0013.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0015.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0017.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0019.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0021.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0023.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0025.gjf",
+        "molecule": "1502823922432230600001_intra_H_migration_7_9",
+        "reaction_type": "Forward",
+        "step": 25
+      }
+    ]
+  },
+  "1502823922432230600001_r12_insertion_R_2_1_3": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0022.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0020.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0018.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0016.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0014.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0012.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0010.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0008.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0006.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0004.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0002.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0000.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0001.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0003.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0005.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0007.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0009.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0011.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0013.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0015.gjf",
+        "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
+        "reaction_type": "Forward",
+        "step": 15
+      }
+    ]
+  },
+  "1502823922432230600001_r13_insertion_ROR_9_8_5_7": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0024.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 24
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0023.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0022.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 22
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0021.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0020.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 20
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0019.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0018.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 18
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0017.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0016.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 16
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0015.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0014.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 14
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0013.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0012.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 12
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0011.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0010.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0009.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0008.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0007.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0006.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0005.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
+        "reaction_type": "Reverse",
+        "step": 5
+      }
+    ]
+  },
+  "1502823922432230600001_r13_insertion_ROR_9_8_5_6": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0008.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0007.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0006.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0005.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0004.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0003.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0002.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0001.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0000.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0000.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0001.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0002.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0003.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0004.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0005.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0006.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0007.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0008.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0009.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0010.gjf",
+        "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
+        "reaction_type": "Forward",
+        "step": 10
+      }
+    ]
+  },
+  "1502984102222700000001_r12_insertion_R_7_1_3": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0031.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 31
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0029.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 29
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0027.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 27
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0025.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 25
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0023.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 23
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0021.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 21
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0019.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 19
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0017.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 17
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0015.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 15
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0013.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 13
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0011.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0009.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0007.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0005.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0003.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0001.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0000.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0002.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0004.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0006.gjf",
+        "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
+        "reaction_type": "Forward",
+        "step": 6
+      }
+    ]
+  },
+  "1502663602461501180601_r12_insertion_R_6_8_5": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0011.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0010.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0009.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0008.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0007.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0006.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0005.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0004.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0003.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0002.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0001.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0000.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0000.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0001.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0002.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0003.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0004.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0005.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0006.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0007.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
+        "reaction_type": "Forward",
+        "step": 7
+      }
+    ]
+  },
+  "1502663602461501180601_r12_insertion_R_5_8_6": {
+    "IRC": [
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0011.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 11
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0010.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 10
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0009.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 9
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0008.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 8
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0007.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 7
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0006.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0005.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0004.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0003.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0002.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0001.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0000.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Reverse",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0000.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 0
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0001.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 1
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0002.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 2
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0003.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 3
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0004.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 4
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0005.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 5
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0006.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 6
+      },
+      {
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0007.gjf",
+        "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
+        "reaction_type": "Forward",
+        "step": 7
+      }
+    ]
+  }
+}
