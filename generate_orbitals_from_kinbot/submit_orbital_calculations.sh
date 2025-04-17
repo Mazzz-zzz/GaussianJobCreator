@@ -19,13 +19,6 @@ usage() {
     echo "  -m, --memory GB       Set memory limit in GB (default: 8)"
     echo "  -o, --output DIR      Set output directory for calculations (default: ./orbital_results)"
     echo "  -i, --input DIR       Set input directory with Gaussian input files (default: ./orbital_inputs)"
-    echo "  -r, --run-prep        Run IRC to orbitals preparation before calculations"
-    echo "  -k, --kinbot DIR      Directory containing KinBot IRC log files (with -r flag)"
-    echo "  -x, --xyz DIR         Directory to store/read IRC geometries (with -r flag)"
-    echo "  -f, --frames N        Max frames to use per trajectory (with -r flag, default: 20)"
-    echo "  -q, --qm-method STR   Quantum method to use (with -r flag, default: B3LYP)"
-    echo "  -b, --basis STR       Basis set to use (with -r flag, default: 6-31G(d))"
-    echo "  -s, --skip-irc        Skip IRC extraction when preparing inputs (with -r flag)"
     echo "  -h, --help            Show this help message"
     echo
     echo "If no INPUT_DIR is specified, the default ./orbital_inputs will be used."
@@ -38,14 +31,6 @@ INPUT_DIR="./orbital_inputs"
 OUTPUT_DIR="./orbital_results"
 TIME_LIMIT="24:00:00"
 MEMORY="8G"
-# Preparation parameters (only used with -r flag)
-RUN_PREP=false
-KINBOT_DIR="../kinbot-exploration"
-XYZ_DIR="./irc_geometries"
-MAX_FRAMES=20
-QM_METHOD="B3LYP"
-BASIS_SET="6-31G(d)"
-SKIP_IRC=false
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
@@ -66,34 +51,6 @@ while [[ $# -gt 0 ]]; do
             INPUT_DIR="$2"
             shift 2
             ;;
-        -r|--run-prep)
-            RUN_PREP=true
-            shift
-            ;;
-        -k|--kinbot)
-            KINBOT_DIR="$2"
-            shift 2
-            ;;
-        -x|--xyz)
-            XYZ_DIR="$2" 
-            shift 2
-            ;;
-        -f|--frames)
-            MAX_FRAMES="$2"
-            shift 2
-            ;;
-        -q|--qm-method)
-            QM_METHOD="$2"
-            shift 2
-            ;;
-        -b|--basis)
-            BASIS_SET="$2"
-            shift 2
-            ;;
-        -s|--skip-irc)
-            SKIP_IRC=true
-            shift
-            ;;
         -h|--help)
             usage
             ;;
@@ -105,36 +62,11 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# If running preparation, execute the irc_to_orbitals.py script
-if [ "$RUN_PREP" = true ]; then
-    echo "Running IRC to orbitals preparation script..."
-    
-    # Build the command
-    PREP_CMD="python irc_to_orbitals.py --irc-dir $KINBOT_DIR --xyz-dir $XYZ_DIR --output-dir $INPUT_DIR --max-frames $MAX_FRAMES --method $QM_METHOD --basis \"$BASIS_SET\""
-    
-    # Add skip-irc flag if needed
-    if [ "$SKIP_IRC" = true ]; then
-        PREP_CMD="$PREP_CMD --skip-irc"
-    fi
-    
-    echo "Running: $PREP_CMD"
-    eval $PREP_CMD
-    
-    # Exit if preparation failed
-    if [ $? -ne 0 ]; then
-        echo "ERROR: Preparation failed. Please check the output for errors."
-        exit 1
-    fi
-    
-    echo "Preparation completed. Proceeding with calculations..."
-fi
-
 # Check that input directory exists
 if [ ! -d "$INPUT_DIR" ]; then
     echo "ERROR: Input directory does not exist: $INPUT_DIR"
     echo "Please run the irc_to_orbitals.py script first to create input files,"
     echo "or specify a different input directory with the --input flag."
-    echo "You can also use the --run-prep flag to run the preparation automatically."
     exit 1
 fi
 

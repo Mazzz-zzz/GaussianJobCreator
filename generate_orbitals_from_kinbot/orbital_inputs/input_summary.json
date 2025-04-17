@@ -2,1352 +2,1570 @@
   "1502984803620600000001_r12_insertion_R_5_1_3": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0040.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0000.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 40
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 40"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0037.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0001.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 37
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 37"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0034.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0002.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 34
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 34"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0031.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0003.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 31
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 31"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0028.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0004.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 28
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 28"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0025.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0005.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 25
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 25"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0022.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0006.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 22
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 22"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0019.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0007.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 19
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 19"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0016.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0008.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 16
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 16"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0013.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0009.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0010.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0011.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0012.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Reverse/1502984803620600000001_r12_insertion_R_5_1_3_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0013.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0014.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0015.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0016.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0010.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0017.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0013.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0018.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Forward/1502984803620600000001_r12_insertion_R_5_1_3_Forward_step0016.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_5_1_3/Combined/1502984803620600000001_r12_insertion_R_5_1_3_Combined_step0019.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_5_1_3",
-        "reaction_type": "Forward",
-        "step": 16
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 16"
       }
     ]
   },
   "1502984803620600000001_r12_insertion_R_6_5_8": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0000.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0001.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0002.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0003.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0004.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0005.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0006.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0007.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0008.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0009.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Reverse/1502984803620600000001_r12_insertion_R_6_5_8_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0010.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0011.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0012.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0013.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0014.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0015.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0016.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0017.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0018.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Forward/1502984803620600000001_r12_insertion_R_6_5_8_Forward_step0008.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r12_insertion_R_6_5_8/Combined/1502984803620600000001_r12_insertion_R_6_5_8_Combined_step0019.gjf",
         "molecule": "1502984803620600000001_r12_insertion_R_6_5_8",
-        "reaction_type": "Forward",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 8"
       }
     ]
   },
   "1502984803620600000001_r13_insertion_ROR_2_1_5_8": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0000.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0001.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0002.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0003.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0004.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0005.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0006.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0007.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0008.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Reverse/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0009.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0010.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0011.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0012.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0013.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0014.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0015.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0016.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0017.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Forward/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Forward_step0008.gjf",
+        "input_file": "orbital_inputs/1502984803620600000001_r13_insertion_ROR_2_1_5_8/Combined/1502984803620600000001_r13_insertion_ROR_2_1_5_8_Combined_step0018.gjf",
         "molecule": "1502984803620600000001_r13_insertion_ROR_2_1_5_8",
-        "reaction_type": "Forward",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 8"
       }
     ]
   },
   "1502823922432230600001_intra_H_migration_5_9": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0013.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0000.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0012.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0001.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 12
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 12"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0011.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0002.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0003.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0004.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0005.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0006.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0007.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0008.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0009.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0010.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0011.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0012.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Reverse/1502823922432230600001_intra_H_migration_5_9_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0013.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0014.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0015.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0016.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0017.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Forward/1502823922432230600001_intra_H_migration_5_9_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_5_9/Combined/1502823922432230600001_intra_H_migration_5_9_Combined_step0018.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_5_9",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 4"
       }
     ]
   },
   "1502823922432230600001_intra_H_migration_7_9": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0012.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0000.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 12
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 12"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0001.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0002.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0003.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0004.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0005.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Reverse/1502823922432230600001_intra_H_migration_7_9_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0006.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0007.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0008.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0009.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0010.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0009.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0011.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Forward Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0011.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0012.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0013.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0013.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0015.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0014.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 15
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 15"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0017.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0015.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 17
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 17"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0019.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0016.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 19
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 19"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0021.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0017.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 21
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 21"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0023.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0018.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 23
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 23"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Forward/1502823922432230600001_intra_H_migration_7_9_Forward_step0025.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_intra_H_migration_7_9/Combined/1502823922432230600001_intra_H_migration_7_9_Combined_step0019.gjf",
         "molecule": "1502823922432230600001_intra_H_migration_7_9",
-        "reaction_type": "Forward",
-        "step": 25
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 25"
       }
     ]
   },
   "1502823922432230600001_r12_insertion_R_2_1_3": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0022.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0000.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 22
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 22"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0020.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0001.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 20
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 20"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0018.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0002.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 18
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 18"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0016.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0003.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 16
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 16"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0014.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0004.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 14
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 14"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0012.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0005.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 12
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 12"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0006.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0007.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0008.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0009.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0010.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Reverse/1502823922432230600001_r12_insertion_R_2_1_3_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0011.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0012.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0013.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0014.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0015.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0009.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0016.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0011.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0017.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0013.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0018.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Forward/1502823922432230600001_r12_insertion_R_2_1_3_Forward_step0015.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r12_insertion_R_2_1_3/Combined/1502823922432230600001_r12_insertion_R_2_1_3_Combined_step0019.gjf",
         "molecule": "1502823922432230600001_r12_insertion_R_2_1_3",
-        "reaction_type": "Forward",
-        "step": 15
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 15"
       }
     ]
   },
   "1502823922432230600001_r13_insertion_ROR_9_8_5_7": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0024.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0000.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 24
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 24"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0023.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0001.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 23
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 23"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0022.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0002.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 22
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 22"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0021.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0003.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 21
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 21"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0020.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0004.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 20
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 20"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0019.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0005.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 19
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 19"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0018.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0006.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 18
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 18"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0017.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0007.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 17
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 17"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0016.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0008.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 16
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 16"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0015.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0009.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 15
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 15"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0014.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0010.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 14
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 14"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0013.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0011.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0012.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0012.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 12
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Reverse Point 12"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0011.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0013.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Reverse Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0014.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0015.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0016.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0017.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0018.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_7/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_7_Combined_step0019.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_7",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Reverse Point 5"
       }
     ]
   },
   "1502823922432230600001_r13_insertion_ROR_9_8_5_6": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0000.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0001.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0002.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0003.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0004.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0005.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0006.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0007.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Reverse/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0008.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0009.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0010.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0011.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0012.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0013.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0014.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0015.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0016.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0008.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0017.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0009.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0018.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Forward/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Forward_step0010.gjf",
+        "input_file": "orbital_inputs/1502823922432230600001_r13_insertion_ROR_9_8_5_6/Combined/1502823922432230600001_r13_insertion_ROR_9_8_5_6_Combined_step0019.gjf",
         "molecule": "1502823922432230600001_r13_insertion_ROR_9_8_5_6",
-        "reaction_type": "Forward",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 10"
       }
     ]
   },
   "1502984102222700000001_r12_insertion_R_7_1_3": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0031.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0000.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 31
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 31"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0029.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0001.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 29
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 29"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0027.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0002.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 27
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 27"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0025.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0003.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 25
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 25"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0023.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0004.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 23
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 23"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0021.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0005.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 21
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 21"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0019.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0006.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 19
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 19"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0017.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0007.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 17
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 17"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0015.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0008.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 15
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 15"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0013.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0009.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 13
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 13"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0011.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0010.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0011.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0012.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0013.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0014.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Reverse/1502984102222700000001_r12_insertion_R_7_1_3_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0015.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0016.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0017.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0018.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Forward/1502984102222700000001_r12_insertion_R_7_1_3_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502984102222700000001_r12_insertion_R_7_1_3/Combined/1502984102222700000001_r12_insertion_R_7_1_3_Combined_step0019.gjf",
         "molecule": "1502984102222700000001_r12_insertion_R_7_1_3",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 6"
       }
     ]
   },
   "1502663602461501180601_r12_insertion_R_6_8_5": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0011.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0000.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0001.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0002.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0003.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0004.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0005.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0006.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0007.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0008.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0009.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0010.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Reverse/1502663602461501180601_r12_insertion_R_6_8_5_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0011.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0012.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0013.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0014.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0015.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0016.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0017.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0018.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Forward/1502663602461501180601_r12_insertion_R_6_8_5_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_6_8_5/Combined/1502663602461501180601_r12_insertion_R_6_8_5_Combined_step0019.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_6_8_5",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 7"
       }
     ]
   },
   "1502663602461501180601_r12_insertion_R_5_8_6": {
     "IRC": [
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0011.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0000.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 11
+        "reaction_type": "Combined",
+        "step": 0,
+        "original_timestep": "IRC Reverse Point 11"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0010.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0001.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 10
+        "reaction_type": "Combined",
+        "step": 1,
+        "original_timestep": "IRC Reverse Point 10"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0009.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0002.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 9
+        "reaction_type": "Combined",
+        "step": 2,
+        "original_timestep": "IRC Reverse Point 9"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0008.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0003.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 8
+        "reaction_type": "Combined",
+        "step": 3,
+        "original_timestep": "IRC Reverse Point 8"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0007.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0004.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 4,
+        "original_timestep": "IRC Reverse Point 7"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0006.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0005.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 5,
+        "original_timestep": "IRC Reverse Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0005.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0006.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 6,
+        "original_timestep": "IRC Reverse Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0004.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0007.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 7,
+        "original_timestep": "IRC Reverse Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0003.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0008.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 8,
+        "original_timestep": "IRC Reverse Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0002.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0009.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 9,
+        "original_timestep": "IRC Reverse Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0001.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0010.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 10,
+        "original_timestep": "IRC Reverse Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Reverse/1502663602461501180601_r12_insertion_R_5_8_6_Reverse_step0000.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0011.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Reverse",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 11,
+        "original_timestep": "IRC Reverse Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0000.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0012.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 0
+        "reaction_type": "Combined",
+        "step": 12,
+        "original_timestep": "IRC Forward Point 0"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0001.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0013.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 1
+        "reaction_type": "Combined",
+        "step": 13,
+        "original_timestep": "IRC Forward Point 1"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0002.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0014.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 2
+        "reaction_type": "Combined",
+        "step": 14,
+        "original_timestep": "IRC Forward Point 2"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0003.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0015.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 3
+        "reaction_type": "Combined",
+        "step": 15,
+        "original_timestep": "IRC Forward Point 3"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0004.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0016.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 4
+        "reaction_type": "Combined",
+        "step": 16,
+        "original_timestep": "IRC Forward Point 4"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0005.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0017.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 5
+        "reaction_type": "Combined",
+        "step": 17,
+        "original_timestep": "IRC Forward Point 5"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0006.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0018.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 6
+        "reaction_type": "Combined",
+        "step": 18,
+        "original_timestep": "IRC Forward Point 6"
       },
       {
-        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Forward/1502663602461501180601_r12_insertion_R_5_8_6_Forward_step0007.gjf",
+        "input_file": "orbital_inputs/1502663602461501180601_r12_insertion_R_5_8_6/Combined/1502663602461501180601_r12_insertion_R_5_8_6_Combined_step0019.gjf",
         "molecule": "1502663602461501180601_r12_insertion_R_5_8_6",
-        "reaction_type": "Forward",
-        "step": 7
+        "reaction_type": "Combined",
+        "step": 19,
+        "original_timestep": "IRC Forward Point 7"
       }
     ]
   }

@@ -389,24 +389,12 @@ def process_xyz_files(xyz_files, output_dir="./orbital_inputs", max_frames=0,
         
         # Create Gaussian input files for each selected frame
         for frame_idx, (timestep, atoms) in enumerate(selected_frames):
-            # Extract step number from the timestep (format: "IRC Forward/Reverse Point X")
-            if "IRC" in timestep and "Point" in timestep:
-                step_num = int(timestep.split("Point")[-1].strip())
-                # Determine if this is forward or reverse
-                if "Forward" in timestep:
-                    current_type = "Forward"
-                elif "Reverse" in timestep:
-                    current_type = "Reverse" 
-                else:
-                    current_type = reaction_type
-            else:
-                # Fallback to sequential numbering
-                step_num = frame_idx
-                current_type = reaction_type
+            # Use sequential numbering for the combined trajectory
+            step_num = frame_idx
             
-            # Create input file
+            # Create input file - use "Combined" as the reaction type instead of Forward/Reverse
             gjf_file = create_gaussian_input_file(
-                molecule, current_type, timestep, atoms, output_dir, 
+                molecule, "Combined", timestep, atoms, output_dir, 
                 step_num, method, basis
             )
             
@@ -414,8 +402,9 @@ def process_xyz_files(xyz_files, output_dir="./orbital_inputs", max_frames=0,
             molecule_inputs.append({
                 "input_file": gjf_file,
                 "molecule": molecule,
-                "reaction_type": current_type,
-                "step": step_num
+                "reaction_type": "Combined",
+                "step": step_num,
+                "original_timestep": timestep  # Preserve the original timestep info
             })
         
         # Add this molecule's inputs to the main dictionary
