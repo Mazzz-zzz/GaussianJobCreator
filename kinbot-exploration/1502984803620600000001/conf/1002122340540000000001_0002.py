@@ -10,7 +10,7 @@ db = connect('/home/akhalilov/GaussianJobCreator/kinbot-exploration/150298480362
 label = 'conf/1002122340540000000001_0002'
 logfile = 'conf/1002122340540000000001_0002.log'
 
-mol = Atoms(symbols=['F', 'S', 'O', 'O', 'O', 'H'], positions=[[np.float64(0.0), np.float64(0.0), np.float64(0.0)], [np.float64(1.556777189413437), np.float64(0.0), np.float64(0.0)], [np.float64(1.9627654105673826), np.float64(-0.4941077710196102), np.float64(1.253098434398227)], [np.float64(1.9501057566599242), np.float64(-0.5484331705299458), np.float64(-1.2426263309234584)], [np.float64(1.7906495407588348), np.float64(1.5425641272550632), np.float64(0.0)], [np.float64(1.7957350297040984), np.float64(1.888617245903378), np.float64(-0.9030368712632736)]])
+mol = Atoms(symbols=['F', 'S', 'O', 'O', 'O', 'H'], positions=[[np.float64(0.0), np.float64(0.0), np.float64(0.0)], [np.float64(1.5566588895201157), np.float64(0.0), np.float64(0.0)], [np.float64(1.9624155638752248), np.float64(-0.49413130871042865), np.float64(1.253215418624588)], [np.float64(1.949943242073893), np.float64(-0.5482008956771436), np.float64(-1.242790760024041)], [np.float64(1.7904626310021037), np.float64(1.5426069623433003), np.float64(0.0)], [np.float64(1.7958905118743251), np.float64(1.8885769528022078), np.float64(-0.9030570699557697)]])
 
 kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'label': 'conf/1002122340540000000001_0002', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'

@@ -31,7 +31,7 @@ for fix in fix_these:
     else:
         raise ValueError(f'Unexpected length of fix: {fix}.')
 
-for c in [[np.int64(2), np.int64(9), np.int64(8), np.int64(5), np.float64(18.228869487284417)]]:
+for c in [[np.int64(8), np.int64(5), np.int64(1), np.int64(2), np.float64(18.228869487284417)]]:
     const.fix_dihedral((c[0]-1, c[1]-1, c[2]-1, c[3]-1), target=c[4])
 
 if os.path.isfile('conf/1502984803620600000001_r13_insertion_ROR_2_1_5_8_r0002_0000_sella.log'):

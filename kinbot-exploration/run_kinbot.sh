@@ -24,7 +24,7 @@ eval "$(conda shell.bash hook)"
 conda activate kinbot-dev
 
 # Run KinBot
-pes PFMS-V3.json
+kinbot PFOS-V1.json
 
 ##DO NOT ADD/EDIT BEYOND THIS LINE##
 ##Job monitor command to list the resource usage

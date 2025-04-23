@@ -12,7 +12,7 @@ logfile = '1502984803620600000001_intra_H_migration_suprafacial_6_9_IRC_R.log'
 
 mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(2.107679), np.float64(-0.006188), np.float64(-1.918823)], [np.float64(2.684173), np.float64(1.168337), np.float64(-1.627018)], [np.float64(1.853784), np.float64(-0.006595), np.float64(-3.218994)], [np.float64(2.995859), np.float64(-0.956528), np.float64(-1.668029)], [np.float64(0.857948), np.float64(0.147263), np.float64(0.778877)], [np.float64(0.982058), np.float64(-0.192105), np.float64(-1.219404)], [np.float64(2.179038), np.float64(0.319751), np.float64(1.264187)], [np.float64(-0.015985), np.float64(-0.875657), np.float64(1.222132)], [np.float64(0.457649), np.float64(0.897848), np.float64(-0.406932)]])
 
-kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_suprafacial_6_9_IRC_R', 'label': '1502984803620600000001_intra_H_migration_suprafacial_6_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,reverse,MaxPoints=30,StepSize=10'}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_suprafacial_6_9_IRC_R', 'label': '1502984803620600000001_intra_H_migration_suprafacial_6_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,reverse,MaxPoints=100,StepSize=2'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

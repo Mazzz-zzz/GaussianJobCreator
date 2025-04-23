@@ -14,11 +14,11 @@
     ],
     "charge": 0,
     "mult": 1,
-    "barrier_threshold": 100,
+    "barrier_threshold": 120,
     "pes": 1,
     "conformer_search": 1,
-
-    "irc_stepsize": 10,     
+    "irc_maxpoints": 100,
+    "irc_stepsize": 2,     
     "integral": "ultrafine",
     "opt": "VeryTight",
 

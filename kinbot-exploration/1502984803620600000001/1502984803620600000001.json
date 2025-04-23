@@ -35,7 +35,7 @@
         1900.0,
         2000.0
     ],
-    "barrier_threshold": 100,
+    "barrier_threshold": 120,
     "barrier_threshold_L2": null,
     "barrier_threshold_add": 10.0,
     "barrier_uq": 1.0,
@@ -100,8 +100,8 @@
     "imagfreq_uq": 1.1,
     "input_file": "PFMS-V3.json",
     "integral": "ultrafine",
-    "irc_maxpoints": 30,
-    "irc_stepsize": 10,
+    "irc_maxpoints": 100,
+    "irc_stepsize": 2,
     "keep_chemids": [
         "none"
     ],

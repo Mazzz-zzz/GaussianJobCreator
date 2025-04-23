@@ -10,7 +10,7 @@ db = connect('/home/akhalilov/GaussianJobCreator/kinbot-exploration/150298480362
 label = '200200000000000000001_well'
 logfile = '200200000000000000001_well.log'
 
-mol = Atoms(symbols=[np.str_('F'), np.str_('H')], positions=[[np.float64(-2.164545), np.float64(-0.503609), np.float64(0.098568)], [np.float64(-1.958957), np.float64(0.333732), np.float64(0.413976)]])
+mol = Atoms(symbols=[np.str_('F'), np.str_('H')], positions=[[np.float64(-2.156202), np.float64(-0.492279), np.float64(0.110486)], [np.float64(-1.946335), np.float64(0.344167), np.float64(0.425449)]])
 
 kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '200200000000000000001_well', 'label': '200200000000000000001_well', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'

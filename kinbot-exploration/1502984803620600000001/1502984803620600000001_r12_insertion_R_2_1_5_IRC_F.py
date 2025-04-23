@@ -12,7 +12,7 @@ logfile = '1502984803620600000001_r12_insertion_R_2_1_5_IRC_F.log'
 
 mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(-0.110048), np.float64(-0.592314), np.float64(0.32192)], [np.float64(0.059062), np.float64(1.199709), np.float64(-0.212716)], [np.float64(-0.766276), np.float64(-0.516315), np.float64(1.403162)], [np.float64(-0.816899), np.float64(-1.108919), np.float64(-0.59481)], [np.float64(1.655483), np.float64(0.304935), np.float64(0.019295)], [np.float64(2.06028), np.float64(0.145271), np.float64(1.373253)], [np.float64(1.948353), np.float64(-0.493068), np.float64(-1.129502)], [np.float64(2.334106), np.float64(1.703952), np.float64(-0.31425)], [np.float64(2.259231), np.float64(1.883045), np.float64(-1.260097)]])
 
-kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_2_1_5_IRC_F', 'label': '1502984803620600000001_r12_insertion_R_2_1_5_IRC_F', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,forward,MaxPoints=30,StepSize=10'}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_r12_insertion_R_2_1_5_IRC_F', 'label': '1502984803620600000001_r12_insertion_R_2_1_5_IRC_F', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,forward,MaxPoints=100,StepSize=2'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

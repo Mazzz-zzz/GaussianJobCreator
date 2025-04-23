@@ -12,7 +12,7 @@ logfile = '1502984803620600000001_R_Addition_MultipleBond_5_8_9_IRC_R.log'
 
 mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(-0.240643), np.float64(-0.122264), np.float64(0.11687)], [np.float64(-0.726266), np.float64(0.610793), np.float64(-0.935031)], [np.float64(-0.781685), np.float64(0.292924), np.float64(1.311752)], [np.float64(-0.438802), np.float64(-1.470114), np.float64(-0.075182)], [np.float64(1.721704), np.float64(0.185893), np.float64(0.210295)], [np.float64(2.339941), np.float64(-0.64098), np.float64(1.413901)], [np.float64(2.326164), np.float64(0.065684), np.float64(-1.39737)], [np.float64(1.973301), np.float64(1.879589), np.float64(0.030006)], [np.float64(2.419831), np.float64(1.389369), np.float64(-1.146492)]])
 
-kwargs = {'method': 'mp2', 'basis': '6-31G', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_R_Addition_MultipleBond_5_8_9_IRC_R', 'label': '1502984803620600000001_R_Addition_MultipleBond_5_8_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'guess': 'Read,Mix', 'geom': 'AllCheck,NoKeepConstants', 'irc': 'RCFC,reverse,MaxPoints=30,StepSize=10'}
+kwargs = {'method': 'mp2', 'basis': '6-31G', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_R_Addition_MultipleBond_5_8_9_IRC_R', 'label': '1502984803620600000001_R_Addition_MultipleBond_5_8_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'guess': 'Read,Mix', 'geom': 'AllCheck,NoKeepConstants', 'irc': 'RCFC,reverse,MaxPoints=100,StepSize=2'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc

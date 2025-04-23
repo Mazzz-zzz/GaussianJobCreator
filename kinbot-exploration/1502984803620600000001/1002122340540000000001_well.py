@@ -10,7 +10,7 @@ db = connect('/home/akhalilov/GaussianJobCreator/kinbot-exploration/150298480362
 label = '1002122340540000000001_well'
 logfile = '1002122340540000000001_well.log'
 
-mol = Atoms(symbols=[np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(0.454867), np.float64(1.893079), np.float64(-1.097233)], [np.float64(1.116918), np.float64(0.785838), np.float64(-0.230721)], [np.float64(0.069858), np.float64(0.018253), np.float64(0.31531)], [np.float64(2.1752), np.float64(0.25542), np.float64(-1.002699)], [np.float64(1.682523), np.float64(1.684488), np.float64(0.910752)], [np.float64(2.561518), np.float64(2.017668), np.float64(0.682851)]])
+mol = Atoms(symbols=['F', 'S', 'O', 'O', 'O', 'H'], positions=[[np.float64(-0.047749), np.float64(-0.181726), np.float64(-0.087096)], [np.float64(1.495166), np.float64(0.015331), np.float64(-0.024223)], [np.float64(1.887206), np.float64(-0.363744), np.float64(1.280525)], [np.float64(2.023188), np.float64(-0.535172), np.float64(-1.206462)], [np.float64(1.538213), np.float64(1.568684), np.float64(-0.162985)], [np.float64(1.455037), np.float64(1.992227), np.float64(0.702445)]])
 
 kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1002122340540000000001_well', 'label': '1002122340540000000001_well', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
@@ -21,7 +21,7 @@ try:
     e = mol.get_potential_energy()  # use the Gaussian optimizer
     iowait(logfile, 'gauss')
     mol.positions = reader_gauss.read_geom(logfile, mol)
-    freq = reader_gauss.read_freq(logfile, [np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')])
+    freq = reader_gauss.read_freq(logfile, ['F', 'S', 'O', 'O', 'O', 'H'])
     zpe = reader_gauss.read_zpe(logfile)
     db.write(mol, name=label, data={'energy': e, 'frequencies': np.asarray(freq),
                                      'zpe': zpe, 'status': 'normal'})
@@ -36,7 +36,7 @@ except RuntimeError:
             e = mol.get_potential_energy()  # use the Gaussian optimizer
             iowait(logfile, 'gauss')
             mol.positions = reader_gauss.read_geom(logfile, mol)
-            freq = reader_gauss.read_freq(logfile, [np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')])
+            freq = reader_gauss.read_freq(logfile, ['F', 'S', 'O', 'O', 'O', 'H'])
             zpe = reader_gauss.read_zpe(logfile)
             db.write(mol, name=label, data={'energy': e,
                                              'frequencies': np.asarray(freq),

@@ -1,0 +1,52 @@
+import numpy as np
+from ase import Atoms
+from ase.db import connect
+
+from kinbot.ase_modules.calculators.gaussian import Gaussian
+from kinbot import reader_gauss
+from kinbot.utils import iowait
+
+db = connect('/home/akhalilov/GaussianJobCreator/kinbot-exploration/PFMS/kinbot.db')
+label = '1492814473150000000002_well'
+logfile = '1492814473150000000002_well.log'
+
+mol = Atoms(symbols=['C', 'F', 'F', 'F', 'S', 'O', 'O', 'O'], positions=[[-0.070778, -0.062498, 0.062406], [-0.569949, 0.616016, -0.954047], [-0.540439, 0.427329, 1.1862], [-0.405212, -1.327775, -0.046887], [1.79072, 0.068722, 0.031725], [2.267489, -0.461375, 1.254281], [2.214823, -0.380941, -1.2496], [1.937752, 1.634485, 0.105306]])
+
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1492814473150000000002_well', 'label': '1492814473150000000002_well', 'Symm': 'None', 'mult': 2, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'freq': 'freq', 'opt': 'CalcFC'}
+Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
+calc = Gaussian(**kwargs)
+mol.calc = calc
+
+try:
+    e = mol.get_potential_energy()  # use the Gaussian optimizer
+    iowait(logfile, 'gauss')
+    mol.positions = reader_gauss.read_geom(logfile, mol)
+    freq = reader_gauss.read_freq(logfile, ['C', 'F', 'F', 'F', 'S', 'O', 'O', 'O'])
+    zpe = reader_gauss.read_zpe(logfile)
+    db.write(mol, name=label, data={'energy': e, 'frequencies': np.asarray(freq),
+                                     'zpe': zpe, 'status': 'normal'})
+
+except RuntimeError:
+    for i in range(3):
+        try:
+            iowait(logfile, 'gauss')
+            mol.positions = reader_gauss.read_geom(logfile, mol)
+            kwargs = reader_gauss.correct_kwargs(logfile, kwargs)
+            mol.calc = Gaussian(**kwargs)
+            e = mol.get_potential_energy()  # use the Gaussian optimizer
+            iowait(logfile, 'gauss')
+            mol.positions = reader_gauss.read_geom(logfile, mol)
+            freq = reader_gauss.read_freq(logfile, ['C', 'F', 'F', 'F', 'S', 'O', 'O', 'O'])
+            zpe = reader_gauss.read_zpe(logfile)
+            db.write(mol, name=label, data={'energy': e,
+                                             'frequencies': np.asarray(freq),
+                                             'zpe': zpe, 'status': 'normal'})
+        except RuntimeError:
+            if i == 2:
+                db.write(mol, name=label, data={'status': 'error'})
+            pass
+        else:
+            break
+
+with open(logfile, 'a') as f:
+    f.write('done\n')

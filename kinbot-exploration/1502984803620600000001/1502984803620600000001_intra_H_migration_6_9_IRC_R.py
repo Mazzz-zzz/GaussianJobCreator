@@ -12,7 +12,7 @@ logfile = '1502984803620600000001_intra_H_migration_6_9_IRC_R.log'
 
 mol = Atoms(symbols=[np.str_('C'), np.str_('F'), np.str_('F'), np.str_('F'), np.str_('S'), np.str_('O'), np.str_('O'), np.str_('O'), np.str_('H')], positions=[[np.float64(1.681649), np.float64(0.989251), np.float64(-1.44865)], [np.float64(2.483736), np.float64(0.456379), np.float64(-2.339367)], [np.float64(2.25924), np.float64(2.027041), np.float64(-0.88968)], [np.float64(0.558134), np.float64(1.35577), np.float64(-2.019872)], [np.float64(1.299374), np.float64(-0.273279), np.float64(-0.124125)], [np.float64(0.887652), np.float64(-1.521096), np.float64(-0.850261)], [np.float64(0.43116), np.float64(0.348068), np.float64(0.804054)], [np.float64(2.624649), np.float64(-0.828633), np.float64(0.310951)], [np.float64(2.051291), np.float64(-1.771705), np.float64(-0.355483)]])
 
-kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_6_9_IRC_R', 'label': '1502984803620600000001_intra_H_migration_6_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,reverse,MaxPoints=30,StepSize=10'}
+kwargs = {'method': 'bmk', 'basis': '6-31++G(2df,p)', 'nprocshared': 8, 'mem': '700MW', 'chk': '1502984803620600000001_intra_H_migration_6_9_IRC_R', 'label': '1502984803620600000001_intra_H_migration_6_9_IRC_R', 'Symm': 'None', 'mult': 1, 'charge': 0, 'scf': 'xqc', 'pop': 'None', 'geom': 'AllCheck,NoKeepConstants', 'guess': 'Read', 'irc': 'RCFC,reverse,MaxPoints=100,StepSize=2'}
 Gaussian.command = 'g16 < PREFIX.com > PREFIX.log'
 calc = Gaussian(**kwargs)
 mol.calc = calc
